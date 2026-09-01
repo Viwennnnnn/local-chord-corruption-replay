@@ -1,0 +1,12 @@
+{
+  "rows": 360,
+  "status_counts": {
+    "PASS": 360
+  },
+  "sample_rates": [
+    44100
+  ],
+  "max_abs_duration_error_sec": 0.0004761201814034166,
+  "max_full_clip_fraction": 0.0,
+  "min_scored_active_fraction": 0.9448185941043084
+}

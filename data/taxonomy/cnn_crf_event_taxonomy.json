@@ -1,0 +1,26 @@
+{
+  "protocol": "real_acr_confusion_pilot_v1",
+  "requested_tracks": 30,
+  "usable_tracks": 30,
+  "weighted_seconds_in_annotated_context": 1369.6338350000005,
+  "category_seconds": {
+    "exact": 182.3150049999999,
+    "fifth_root": 400.88697600000046,
+    "no_chord_involved": 53.49694300000002,
+    "other_root": 451.9399880000001,
+    "relative_substitution": 115.77995899999996,
+    "same_root_quality": 64.68599100000009,
+    "semitone_root": 70.56395899999997,
+    "tritone_root": 29.965013999999982
+  },
+  "category_fraction": {
+    "exact": 0.13311222338487266,
+    "fifth_root": 0.2926964607295937,
+    "no_chord_involved": 0.03905930302897344,
+    "other_root": 0.32997139560297145,
+    "relative_substitution": 0.08453351256469209,
+    "same_root_quality": 0.04722867480854842,
+    "semitone_root": 0.051520309440953566,
+    "tritone_root": 0.021878120439394643
+  }
+}

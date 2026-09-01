@@ -1,0 +1,19 @@
+{
+  "main_pairing": {
+    "tracks": 30,
+    "matched_track_seed_rows": 90,
+    "cens_mean_central_minus_replay": 0.462,
+    "cens_positive_tracks": "29/30"
+  },
+  "relation_control": {
+    "cens_relative_root_over_quality_ratio": 2.88
+  },
+  "profile_matching_gain": {
+    "cnn_crf": {"cens": 0.384, "cqt": 0.328},
+    "deepchroma_crf": {"cens": 0.408, "cqt": 0.353}
+  },
+  "full30_construction_distance": {
+    "cens": {"central": 0.482, "exact_mask": 0.115, "composition_only": 0.117, "full_profile": 0.098},
+    "cqt": {"central": 0.412, "exact_mask": 0.094, "composition_only": 0.108, "full_profile": 0.085}
+  }
+}
