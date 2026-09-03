@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Summarize the paired 18-song G15 error-anisotropy confirmation."""
+"""Summarize the paired relation-response control."""
 
 from __future__ import annotations
 
@@ -43,7 +43,7 @@ def main() -> int:
     if len(args.metrics) != len(args.representations):
         raise ValueError("metrics and representations must have equal lengths")
 
-    summary = {"protocol": "g15_acr_anisotropy_confirm_v1", "representations": {}}
+    summary = {"protocol": "relation_response_control_v1", "representations": {}}
     for representation, path in zip(args.representations, args.metrics):
         rows = read_csv(path)
         grouped = defaultdict(list)

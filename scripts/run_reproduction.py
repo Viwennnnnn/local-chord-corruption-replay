@@ -18,12 +18,12 @@ def run(*args: str) -> None:
 
 def main() -> None:
     OUT.mkdir(exist_ok=True)
-    run("scripts/audit_g22_pairing.py", "--synthetic", "data/central/cens.csv",
-        "--real", "data/replay/cnn_crf_cens.csv", "--output", "reproduced/g22_pairing.json")
-    run("analysis/g27_track_level_inference/analyze.py")
-    run("scripts/summarize_g15_acr_anisotropy.py", "--metrics", "data/relation_control/stft.csv",
+    run("scripts/validate_pairing.py", "--synthetic", "data/central/cens.csv",
+        "--real", "data/replay/cnn_crf_cens.csv", "--output", "reproduced/pairing_validation.json")
+    run("analysis/track_level_inference/analyze.py")
+    run("scripts/summarize_relation_response.py", "--metrics", "data/relation_control/stft.csv",
         "--metrics", "data/relation_control/cqt.csv", "--metrics", "data/relation_control/cens.csv",
-        "--representations", "stft", "cqt", "cens", "--output-json", "reproduced/g15_relation.json")
+        "--representations", "stft", "cqt", "cens", "--output-json", "reproduced/relation_response.json")
     for view in ("cens", "cqt"):
         run("scripts/analyze_profile_matched_replication.py", "--profile", f"data/profile/cnn_full30_{view}.csv",
             "--replay", f"data/replay/cnn_crf_{view}.csv", "--central", f"data/central/{view}.csv",
@@ -36,7 +36,7 @@ def main() -> None:
             "--mask-only", f"data/construction/mask_only_{view}.csv", "--composition-only", f"data/construction/composition_only_{view}.csv",
             "--qa", "data/construction/audio_qa.json", "--representation", view,
             "--output-csv", f"reproduced/construction_{view}.csv", "--output-json", f"reproduced/construction_{view}.json")
-    run("scripts/finalize_profile_construction_statistics.py", "--cens", "reproduced/construction_cens.json",
+    run("scripts/analyze_profile_construction.py", "--cens", "reproduced/construction_cens.json",
         "--cqt", "reproduced/construction_cqt.json", "--output-json", "reproduced/construction_statistics.json",
         "--output-markdown", "reproduced/CONSTRUCTION_STATISTICS.md")
     run("scripts/plot_fig1_calibrated_protocol.py", "--central", "data/central/cens.csv",

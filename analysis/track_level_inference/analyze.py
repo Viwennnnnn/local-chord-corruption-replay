@@ -1,4 +1,4 @@
-"""Track-level confirmatory inference for the paired G22 comparison."""
+"""Track-level paired inference for the local-edit and replay comparison."""
 
 from __future__ import annotations
 
@@ -12,7 +12,7 @@ from scipy.stats import wilcoxon
 
 
 ROOT = Path(__file__).resolve().parents[2]
-OUT = ROOT / "reproduced" / "g27_track_level_inference"
+OUT = ROOT / "reproduced" / "track_level_inference"
 VIEWS = ("stft", "cqt", "cens")
 METRICS = (
     # These endpoints are defined for every paired 12-s window and form the
