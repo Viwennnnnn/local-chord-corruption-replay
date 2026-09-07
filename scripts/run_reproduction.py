@@ -18,6 +18,7 @@ def run(*args: str) -> None:
 
 def main() -> None:
     OUT.mkdir(exist_ok=True)
+    run("scripts/analyze_moisesdb.py")
     run("scripts/validate_pairing.py", "--synthetic", "data/central/cens.csv",
         "--real", "data/replay/cnn_crf_cens.csv", "--output", "reproduced/pairing_validation.json")
     run("analysis/track_level_inference/analyze.py")

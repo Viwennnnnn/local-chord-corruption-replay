@@ -1,0 +1,820 @@
+{
+  "track_rows": [
+    {
+      "track_key": "6e50565e-8179-4913-af54-a2a7f0dcab2f",
+      "seed_rows": [
+        {
+          "seed": 42,
+          "baseline": 1.0,
+          "central_tritone": 0.875,
+          "relation_profile": 0.75,
+          "mask_only": 0.9583333333333334,
+          "composition_only": 0.8333333333333334
+        },
+        {
+          "seed": 123,
+          "baseline": 0.75,
+          "central_tritone": 1.0,
+          "relation_profile": 0.7083333333333334,
+          "mask_only": 0.9583333333333334,
+          "composition_only": 1.0
+        },
+        {
+          "seed": 2027,
+          "baseline": 1.0,
+          "central_tritone": 0.75,
+          "relation_profile": 0.75,
+          "mask_only": 0.75,
+          "composition_only": 0.6666666666666666
+        }
+      ],
+      "baseline": 0.9166666666666666,
+      "central_tritone": 0.875,
+      "relation_profile": 0.7361111111111112,
+      "mask_only": 0.888888888888889,
+      "composition_only": 0.8333333333333334
+    },
+    {
+      "track_key": "53808b95-cfe9-461d-a113-ffadf32817a1",
+      "seed_rows": [
+        {
+          "seed": 42,
+          "baseline": 0.5833333333333334,
+          "central_tritone": 0.5833333333333334,
+          "relation_profile": 1.0,
+          "mask_only": 0.875,
+          "composition_only": 0.6666666666666666
+        },
+        {
+          "seed": 123,
+          "baseline": 0.9166666666666666,
+          "central_tritone": 0.9583333333333334,
+          "relation_profile": 0.875,
+          "mask_only": 1.0,
+          "composition_only": 0.8333333333333334
+        },
+        {
+          "seed": 2027,
+          "baseline": 0.9166666666666666,
+          "central_tritone": 0.9166666666666666,
+          "relation_profile": 0.875,
+          "mask_only": 1.0,
+          "composition_only": 0.7916666666666666
+        }
+      ],
+      "baseline": 0.8055555555555555,
+      "central_tritone": 0.8194444444444445,
+      "relation_profile": 0.9166666666666666,
+      "mask_only": 0.9583333333333334,
+      "composition_only": 0.7638888888888888
+    },
+    {
+      "track_key": "e9336d31-c0df-4c91-be2b-7c4420c9cd34",
+      "seed_rows": [
+        {
+          "seed": 42,
+          "baseline": 0.75,
+          "central_tritone": 0.9166666666666666,
+          "relation_profile": 0.5,
+          "mask_only": 0.7916666666666666,
+          "composition_only": 1.0
+        },
+        {
+          "seed": 123,
+          "baseline": 0.75,
+          "central_tritone": 0.9166666666666666,
+          "relation_profile": 1.0,
+          "mask_only": 0.625,
+          "composition_only": 0.7916666666666666
+        },
+        {
+          "seed": 2027,
+          "baseline": 1.0,
+          "central_tritone": 1.0,
+          "relation_profile": 0.8333333333333334,
+          "mask_only": 1.0,
+          "composition_only": 1.0
+        }
+      ],
+      "baseline": 0.8333333333333334,
+      "central_tritone": 0.9444444444444443,
+      "relation_profile": 0.7777777777777778,
+      "mask_only": 0.8055555555555555,
+      "composition_only": 0.9305555555555555
+    },
+    {
+      "track_key": "d4262245-3143-4c05-8423-6cbdc6253042",
+      "seed_rows": [
+        {
+          "seed": 42,
+          "baseline": 0.8333333333333334,
+          "central_tritone": 1.0,
+          "relation_profile": 0.9166666666666666,
+          "mask_only": 0.8333333333333334,
+          "composition_only": 0.9166666666666666
+        },
+        {
+          "seed": 123,
+          "baseline": 0.875,
+          "central_tritone": 1.0,
+          "relation_profile": 0.9166666666666666,
+          "mask_only": 1.0,
+          "composition_only": 1.0
+        },
+        {
+          "seed": 2027,
+          "baseline": 0.875,
+          "central_tritone": 1.0,
+          "relation_profile": 0.6666666666666666,
+          "mask_only": 1.0,
+          "composition_only": 0.9583333333333334
+        }
+      ],
+      "baseline": 0.8611111111111112,
+      "central_tritone": 1.0,
+      "relation_profile": 0.8333333333333334,
+      "mask_only": 0.9444444444444445,
+      "composition_only": 0.9583333333333334
+    },
+    {
+      "track_key": "d2401d3d-967c-46be-b9a0-3da571105158",
+      "seed_rows": [
+        {
+          "seed": 42,
+          "baseline": 1.0,
+          "central_tritone": 0.8333333333333334,
+          "relation_profile": 0.7916666666666666,
+          "mask_only": 0.8333333333333334,
+          "composition_only": 0.7916666666666666
+        },
+        {
+          "seed": 123,
+          "baseline": 0.8333333333333334,
+          "central_tritone": 0.8333333333333334,
+          "relation_profile": 0.8333333333333334,
+          "mask_only": 0.8333333333333334,
+          "composition_only": 0.75
+        },
+        {
+          "seed": 2027,
+          "baseline": 0.8333333333333334,
+          "central_tritone": 0.8333333333333334,
+          "relation_profile": 0.7916666666666666,
+          "mask_only": 0.8333333333333334,
+          "composition_only": 0.8333333333333334
+        }
+      ],
+      "baseline": 0.888888888888889,
+      "central_tritone": 0.8333333333333334,
+      "relation_profile": 0.8055555555555555,
+      "mask_only": 0.8333333333333334,
+      "composition_only": 0.7916666666666666
+    },
+    {
+      "track_key": "21ce1331-6066-4ff4-9a54-f6f62bb5fb0d",
+      "seed_rows": [
+        {
+          "seed": 42,
+          "baseline": 0.5416666666666666,
+          "central_tritone": 0.8333333333333334,
+          "relation_profile": 0.4166666666666667,
+          "mask_only": 0.75,
+          "composition_only": 0.8333333333333334
+        },
+        {
+          "seed": 123,
+          "baseline": 0.75,
+          "central_tritone": 0.9166666666666666,
+          "relation_profile": 0.5833333333333334,
+          "mask_only": 1.0,
+          "composition_only": 0.9166666666666666
+        },
+        {
+          "seed": 2027,
+          "baseline": 0.7083333333333334,
+          "central_tritone": 0.7083333333333334,
+          "relation_profile": 0.875,
+          "mask_only": 0.625,
+          "composition_only": 0.8333333333333334
+        }
+      ],
+      "baseline": 0.6666666666666666,
+      "central_tritone": 0.8194444444444445,
+      "relation_profile": 0.625,
+      "mask_only": 0.7916666666666666,
+      "composition_only": 0.8611111111111112
+    },
+    {
+      "track_key": "bacbb01f-b877-4d62-8050-992f1d85543a",
+      "seed_rows": [
+        {
+          "seed": 42,
+          "baseline": 0.9166666666666666,
+          "central_tritone": 1.0,
+          "relation_profile": 0.6666666666666666,
+          "mask_only": 0.9166666666666666,
+          "composition_only": 1.0
+        },
+        {
+          "seed": 123,
+          "baseline": 0.7916666666666666,
+          "central_tritone": 1.0,
+          "relation_profile": 0.625,
+          "mask_only": 0.9166666666666666,
+          "composition_only": 0.9583333333333334
+        },
+        {
+          "seed": 2027,
+          "baseline": 1.0,
+          "central_tritone": 1.0,
+          "relation_profile": 0.75,
+          "mask_only": 1.0,
+          "composition_only": 0.9583333333333334
+        }
+      ],
+      "baseline": 0.9027777777777777,
+      "central_tritone": 1.0,
+      "relation_profile": 0.6805555555555555,
+      "mask_only": 0.9444444444444443,
+      "composition_only": 0.9722222222222223
+    },
+    {
+      "track_key": "9c8a5c66-f6d8-4425-8671-6b7aa6a2663b",
+      "seed_rows": [
+        {
+          "seed": 42,
+          "baseline": 1.0,
+          "central_tritone": 1.0,
+          "relation_profile": 0.625,
+          "mask_only": 0.9166666666666666,
+          "composition_only": 1.0
+        },
+        {
+          "seed": 123,
+          "baseline": 1.0,
+          "central_tritone": 1.0,
+          "relation_profile": 0.625,
+          "mask_only": 0.9166666666666666,
+          "composition_only": 1.0
+        },
+        {
+          "seed": 2027,
+          "baseline": 0.9166666666666666,
+          "central_tritone": 0.875,
+          "relation_profile": 0.7083333333333334,
+          "mask_only": 0.875,
+          "composition_only": 0.8333333333333334
+        }
+      ],
+      "baseline": 0.9722222222222222,
+      "central_tritone": 0.9583333333333334,
+      "relation_profile": 0.6527777777777778,
+      "mask_only": 0.9027777777777777,
+      "composition_only": 0.9444444444444445
+    },
+    {
+      "track_key": "bb6d72a2-63ba-405e-a2c1-c7442b4190bb",
+      "seed_rows": [
+        {
+          "seed": 42,
+          "baseline": 0.5416666666666666,
+          "central_tritone": 0.6666666666666666,
+          "relation_profile": 0.625,
+          "mask_only": 0.9166666666666666,
+          "composition_only": 1.0
+        },
+        {
+          "seed": 123,
+          "baseline": 0.9166666666666666,
+          "central_tritone": 0.9166666666666666,
+          "relation_profile": 0.5416666666666666,
+          "mask_only": 0.7083333333333334,
+          "composition_only": 1.0
+        },
+        {
+          "seed": 2027,
+          "baseline": 0.7916666666666666,
+          "central_tritone": 0.7916666666666666,
+          "relation_profile": 0.4583333333333333,
+          "mask_only": 0.7083333333333334,
+          "composition_only": 0.7916666666666666
+        }
+      ],
+      "baseline": 0.75,
+      "central_tritone": 0.7916666666666666,
+      "relation_profile": 0.5416666666666666,
+      "mask_only": 0.7777777777777778,
+      "composition_only": 0.9305555555555555
+    },
+    {
+      "track_key": "36ee7fc6-604c-4a75-b4f0-0a9ceef3b9cb",
+      "seed_rows": [
+        {
+          "seed": 42,
+          "baseline": 0.7083333333333334,
+          "central_tritone": 0.875,
+          "relation_profile": 0.875,
+          "mask_only": 0.7083333333333334,
+          "composition_only": 0.875
+        },
+        {
+          "seed": 123,
+          "baseline": 0.7083333333333334,
+          "central_tritone": 0.875,
+          "relation_profile": 0.7083333333333334,
+          "mask_only": 0.7916666666666666,
+          "composition_only": 0.7916666666666666
+        },
+        {
+          "seed": 2027,
+          "baseline": 0.8333333333333334,
+          "central_tritone": 0.875,
+          "relation_profile": 0.7916666666666666,
+          "mask_only": 0.8333333333333334,
+          "composition_only": 0.875
+        }
+      ],
+      "baseline": 0.75,
+      "central_tritone": 0.875,
+      "relation_profile": 0.7916666666666666,
+      "mask_only": 0.7777777777777778,
+      "composition_only": 0.8472222222222222
+    },
+    {
+      "track_key": "01c8ba69-8eee-485b-bab0-41a76f9e8892",
+      "seed_rows": [
+        {
+          "seed": 42,
+          "baseline": 1.0,
+          "central_tritone": 1.0,
+          "relation_profile": 0.6666666666666666,
+          "mask_only": 1.0,
+          "composition_only": 1.0
+        },
+        {
+          "seed": 123,
+          "baseline": 1.0,
+          "central_tritone": 1.0,
+          "relation_profile": 0.8333333333333334,
+          "mask_only": 1.0,
+          "composition_only": 1.0
+        },
+        {
+          "seed": 2027,
+          "baseline": 1.0,
+          "central_tritone": 1.0,
+          "relation_profile": 0.75,
+          "mask_only": 1.0,
+          "composition_only": 1.0
+        }
+      ],
+      "baseline": 1.0,
+      "central_tritone": 1.0,
+      "relation_profile": 0.75,
+      "mask_only": 1.0,
+      "composition_only": 1.0
+    },
+    {
+      "track_key": "2c020edb-5947-4fa7-afea-ebc592cea683",
+      "seed_rows": [
+        {
+          "seed": 42,
+          "baseline": 1.0,
+          "central_tritone": 1.0,
+          "relation_profile": 0.7916666666666666,
+          "mask_only": 0.9583333333333334,
+          "composition_only": 1.0
+        },
+        {
+          "seed": 123,
+          "baseline": 0.8333333333333334,
+          "central_tritone": 0.75,
+          "relation_profile": 1.0,
+          "mask_only": 0.9166666666666666,
+          "composition_only": 0.6666666666666666
+        },
+        {
+          "seed": 2027,
+          "baseline": 0.875,
+          "central_tritone": 0.9583333333333334,
+          "relation_profile": 0.875,
+          "mask_only": 0.9583333333333334,
+          "composition_only": 0.8333333333333334
+        }
+      ],
+      "baseline": 0.9027777777777778,
+      "central_tritone": 0.9027777777777778,
+      "relation_profile": 0.8888888888888888,
+      "mask_only": 0.9444444444444445,
+      "composition_only": 0.8333333333333334
+    },
+    {
+      "track_key": "765d5131-afd9-4ad7-8786-8bef5705c1c2",
+      "seed_rows": [
+        {
+          "seed": 42,
+          "baseline": 0.625,
+          "central_tritone": 0.7916666666666666,
+          "relation_profile": 0.5833333333333334,
+          "mask_only": 0.7916666666666666,
+          "composition_only": 0.7916666666666666
+        },
+        {
+          "seed": 123,
+          "baseline": 0.625,
+          "central_tritone": 0.6666666666666666,
+          "relation_profile": 0.9166666666666666,
+          "mask_only": 0.6666666666666666,
+          "composition_only": 0.7083333333333334
+        },
+        {
+          "seed": 2027,
+          "baseline": 0.75,
+          "central_tritone": 0.6666666666666666,
+          "relation_profile": 0.7916666666666666,
+          "mask_only": 0.625,
+          "composition_only": 0.625
+        }
+      ],
+      "baseline": 0.6666666666666666,
+      "central_tritone": 0.7083333333333334,
+      "relation_profile": 0.7638888888888888,
+      "mask_only": 0.6944444444444443,
+      "composition_only": 0.7083333333333334
+    },
+    {
+      "track_key": "825f697d-5fcd-4429-ba33-23163c726ca7",
+      "seed_rows": [
+        {
+          "seed": 42,
+          "baseline": 0.7083333333333334,
+          "central_tritone": 0.875,
+          "relation_profile": 0.5,
+          "mask_only": 0.875,
+          "composition_only": 0.875
+        },
+        {
+          "seed": 123,
+          "baseline": 0.75,
+          "central_tritone": 0.875,
+          "relation_profile": 0.625,
+          "mask_only": 0.5416666666666666,
+          "composition_only": 0.8333333333333334
+        },
+        {
+          "seed": 2027,
+          "baseline": 0.7083333333333334,
+          "central_tritone": 0.9166666666666666,
+          "relation_profile": 0.7916666666666666,
+          "mask_only": 0.5416666666666666,
+          "composition_only": 0.875
+        }
+      ],
+      "baseline": 0.7222222222222223,
+      "central_tritone": 0.8888888888888888,
+      "relation_profile": 0.6388888888888888,
+      "mask_only": 0.6527777777777777,
+      "composition_only": 0.8611111111111112
+    },
+    {
+      "track_key": "faad432d-6ad0-492d-96f1-321eeb9685b5",
+      "seed_rows": [
+        {
+          "seed": 42,
+          "baseline": 0.8333333333333334,
+          "central_tritone": 0.6666666666666666,
+          "relation_profile": 0.625,
+          "mask_only": 0.5,
+          "composition_only": 0.7083333333333334
+        },
+        {
+          "seed": 123,
+          "baseline": 0.6666666666666666,
+          "central_tritone": 0.6666666666666666,
+          "relation_profile": 0.6666666666666666,
+          "mask_only": 0.6666666666666666,
+          "composition_only": 0.7916666666666666
+        },
+        {
+          "seed": 2027,
+          "baseline": 0.6666666666666666,
+          "central_tritone": 0.6666666666666666,
+          "relation_profile": 0.6666666666666666,
+          "mask_only": 0.5,
+          "composition_only": 0.625
+        }
+      ],
+      "baseline": 0.7222222222222222,
+      "central_tritone": 0.6666666666666666,
+      "relation_profile": 0.6527777777777777,
+      "mask_only": 0.5555555555555555,
+      "composition_only": 0.7083333333333334
+    },
+    {
+      "track_key": "045dcfd1-e960-4332-80cc-fdacc4a7c6a7",
+      "seed_rows": [
+        {
+          "seed": 42,
+          "baseline": 1.0,
+          "central_tritone": 1.0,
+          "relation_profile": 0.7083333333333334,
+          "mask_only": 1.0,
+          "composition_only": 1.0
+        },
+        {
+          "seed": 123,
+          "baseline": 0.9166666666666666,
+          "central_tritone": 0.9583333333333334,
+          "relation_profile": 0.8333333333333334,
+          "mask_only": 0.9166666666666666,
+          "composition_only": 1.0
+        },
+        {
+          "seed": 2027,
+          "baseline": 0.9583333333333334,
+          "central_tritone": 1.0,
+          "relation_profile": 0.8333333333333334,
+          "mask_only": 0.9583333333333334,
+          "composition_only": 1.0
+        }
+      ],
+      "baseline": 0.9583333333333334,
+      "central_tritone": 0.9861111111111112,
+      "relation_profile": 0.7916666666666666,
+      "mask_only": 0.9583333333333334,
+      "composition_only": 1.0
+    },
+    {
+      "track_key": "22d265ef-ee2b-4aba-8d60-c3430295cd6d",
+      "seed_rows": [
+        {
+          "seed": 42,
+          "baseline": 0.9583333333333334,
+          "central_tritone": 0.9583333333333334,
+          "relation_profile": 0.9583333333333334,
+          "mask_only": 1.0,
+          "composition_only": 1.0
+        },
+        {
+          "seed": 123,
+          "baseline": 1.0,
+          "central_tritone": 1.0,
+          "relation_profile": 0.9583333333333334,
+          "mask_only": 0.875,
+          "composition_only": 1.0
+        },
+        {
+          "seed": 2027,
+          "baseline": 0.7916666666666666,
+          "central_tritone": 1.0,
+          "relation_profile": 0.9583333333333334,
+          "mask_only": 0.9583333333333334,
+          "composition_only": 1.0
+        }
+      ],
+      "baseline": 0.9166666666666666,
+      "central_tritone": 0.9861111111111112,
+      "relation_profile": 0.9583333333333334,
+      "mask_only": 0.9444444444444445,
+      "composition_only": 1.0
+    },
+    {
+      "track_key": "95378cf3-e939-42e0-b486-ebf2ca951664",
+      "seed_rows": [
+        {
+          "seed": 42,
+          "baseline": 1.0,
+          "central_tritone": 1.0,
+          "relation_profile": 0.7916666666666666,
+          "mask_only": 1.0,
+          "composition_only": 1.0
+        },
+        {
+          "seed": 123,
+          "baseline": 1.0,
+          "central_tritone": 1.0,
+          "relation_profile": 1.0,
+          "mask_only": 1.0,
+          "composition_only": 1.0
+        },
+        {
+          "seed": 2027,
+          "baseline": 1.0,
+          "central_tritone": 1.0,
+          "relation_profile": 1.0,
+          "mask_only": 1.0,
+          "composition_only": 0.9166666666666666
+        }
+      ],
+      "baseline": 1.0,
+      "central_tritone": 1.0,
+      "relation_profile": 0.9305555555555555,
+      "mask_only": 1.0,
+      "composition_only": 0.9722222222222222
+    },
+    {
+      "track_key": "f76e2c13-9a9a-4cac-b6dd-45b5111aac6d",
+      "seed_rows": [
+        {
+          "seed": 42,
+          "baseline": 0.875,
+          "central_tritone": 0.875,
+          "relation_profile": 0.7083333333333334,
+          "mask_only": 1.0,
+          "composition_only": 0.8333333333333334
+        },
+        {
+          "seed": 123,
+          "baseline": 1.0,
+          "central_tritone": 0.9583333333333334,
+          "relation_profile": 0.875,
+          "mask_only": 1.0,
+          "composition_only": 0.8333333333333334
+        },
+        {
+          "seed": 2027,
+          "baseline": 0.875,
+          "central_tritone": 0.875,
+          "relation_profile": 0.7083333333333334,
+          "mask_only": 0.875,
+          "composition_only": 0.8333333333333334
+        }
+      ],
+      "baseline": 0.9166666666666666,
+      "central_tritone": 0.9027777777777778,
+      "relation_profile": 0.763888888888889,
+      "mask_only": 0.9583333333333334,
+      "composition_only": 0.8333333333333334
+    },
+    {
+      "track_key": "8a307c5d-9d65-4f1c-a024-5eaeff1faa34",
+      "seed_rows": [
+        {
+          "seed": 42,
+          "baseline": 0.75,
+          "central_tritone": 0.7916666666666666,
+          "relation_profile": 0.75,
+          "mask_only": 0.7916666666666666,
+          "composition_only": 0.7916666666666666
+        },
+        {
+          "seed": 123,
+          "baseline": 0.8333333333333334,
+          "central_tritone": 1.0,
+          "relation_profile": 0.75,
+          "mask_only": 0.8333333333333334,
+          "composition_only": 0.75
+        },
+        {
+          "seed": 2027,
+          "baseline": 0.75,
+          "central_tritone": 0.9583333333333334,
+          "relation_profile": 0.7083333333333334,
+          "mask_only": 0.8333333333333334,
+          "composition_only": 0.75
+        }
+      ],
+      "baseline": 0.7777777777777778,
+      "central_tritone": 0.9166666666666666,
+      "relation_profile": 0.7361111111111112,
+      "mask_only": 0.8194444444444445,
+      "composition_only": 0.7638888888888888
+    },
+    {
+      "track_key": "2b4e8304-c92d-4347-b09e-cfb9b3e29bf2",
+      "seed_rows": [
+        {
+          "seed": 42,
+          "baseline": 0.5416666666666666,
+          "central_tritone": 0.75,
+          "relation_profile": 0.7083333333333334,
+          "mask_only": 0.4166666666666667,
+          "composition_only": 0.7083333333333334
+        },
+        {
+          "seed": 123,
+          "baseline": 0.6666666666666666,
+          "central_tritone": 0.9583333333333334,
+          "relation_profile": 0.5416666666666666,
+          "mask_only": 0.6666666666666666,
+          "composition_only": 1.0
+        },
+        {
+          "seed": 2027,
+          "baseline": 0.5416666666666666,
+          "central_tritone": 0.8333333333333334,
+          "relation_profile": 0.4166666666666667,
+          "mask_only": 0.5416666666666666,
+          "composition_only": 0.7083333333333334
+        }
+      ],
+      "baseline": 0.5833333333333334,
+      "central_tritone": 0.8472222222222223,
+      "relation_profile": 0.5555555555555556,
+      "mask_only": 0.5416666666666666,
+      "composition_only": 0.8055555555555557
+    },
+    {
+      "track_key": "793b98a0-c776-4943-87eb-b7e07e50f531",
+      "seed_rows": [
+        {
+          "seed": 42,
+          "baseline": 1.0,
+          "central_tritone": 1.0,
+          "relation_profile": 0.9583333333333334,
+          "mask_only": 1.0,
+          "composition_only": 1.0
+        },
+        {
+          "seed": 123,
+          "baseline": 1.0,
+          "central_tritone": 1.0,
+          "relation_profile": 0.9583333333333334,
+          "mask_only": 1.0,
+          "composition_only": 1.0
+        },
+        {
+          "seed": 2027,
+          "baseline": 1.0,
+          "central_tritone": 1.0,
+          "relation_profile": 0.875,
+          "mask_only": 1.0,
+          "composition_only": 0.9583333333333334
+        }
+      ],
+      "baseline": 1.0,
+      "central_tritone": 1.0,
+      "relation_profile": 0.9305555555555557,
+      "mask_only": 1.0,
+      "composition_only": 0.9861111111111112
+    },
+    {
+      "track_key": "ca080447-fe99-4f6d-98c9-c69b68dacba3",
+      "seed_rows": [
+        {
+          "seed": 42,
+          "baseline": 0.9166666666666666,
+          "central_tritone": 0.9166666666666666,
+          "relation_profile": 0.9166666666666666,
+          "mask_only": 0.625,
+          "composition_only": 0.7916666666666666
+        },
+        {
+          "seed": 123,
+          "baseline": 0.8333333333333334,
+          "central_tritone": 1.0,
+          "relation_profile": 0.75,
+          "mask_only": 0.8333333333333334,
+          "composition_only": 0.875
+        },
+        {
+          "seed": 2027,
+          "baseline": 0.7916666666666666,
+          "central_tritone": 0.9166666666666666,
+          "relation_profile": 0.5833333333333334,
+          "mask_only": 0.75,
+          "composition_only": 0.7916666666666666
+        }
+      ],
+      "baseline": 0.8472222222222222,
+      "central_tritone": 0.9444444444444443,
+      "relation_profile": 0.75,
+      "mask_only": 0.7361111111111112,
+      "composition_only": 0.8194444444444443
+    },
+    {
+      "track_key": "d7d28204-a8ac-4c2b-bb3c-c941f4a00b85",
+      "seed_rows": [
+        {
+          "seed": 42,
+          "baseline": 0.9583333333333334,
+          "central_tritone": 0.9583333333333334,
+          "relation_profile": 0.9166666666666666,
+          "mask_only": 0.9166666666666666,
+          "composition_only": 0.9583333333333334
+        },
+        {
+          "seed": 123,
+          "baseline": 1.0,
+          "central_tritone": 1.0,
+          "relation_profile": 1.0,
+          "mask_only": 1.0,
+          "composition_only": 1.0
+        },
+        {
+          "seed": 2027,
+          "baseline": 0.9583333333333334,
+          "central_tritone": 0.9583333333333334,
+          "relation_profile": 1.0,
+          "mask_only": 0.9166666666666666,
+          "composition_only": 0.9583333333333334
+        }
+      ],
+      "baseline": 0.9722222222222223,
+      "central_tritone": 0.9722222222222223,
+      "relation_profile": 0.9722222222222222,
+      "mask_only": 0.9444444444444443,
+      "composition_only": 0.9722222222222223
+    }
+  ]
+}

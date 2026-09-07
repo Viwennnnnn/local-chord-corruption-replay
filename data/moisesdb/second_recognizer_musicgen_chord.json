@@ -1,0 +1,1444 @@
+{
+  "track_level": [
+    {
+      "track_key": "01c8ba69-8eee-485b-bab0-41a76f9e8892",
+      "representation": "cens",
+      "changed_target_effect": {
+        "central_distance": 0.10455180499534822,
+        "profile_distance": 0.17623982731609833,
+        "gain": -0.07168802232075011,
+        "unchanged_baseline_distance": 0.8701019236724289,
+        "profile_gain_vs_unchanged": 0.6938620963563306
+      },
+      "inside_output_change": {
+        "central_distance": 0.08585442033492863,
+        "profile_distance": 0.11834539545493,
+        "gain": -0.032490975120001375,
+        "unchanged_baseline_distance": 0.5257283001103336,
+        "profile_gain_vs_unchanged": 0.40738290465540355
+      },
+      "full_output_change": {
+        "central_distance": 0.25226793489936333,
+        "profile_distance": 0.11834539545493,
+        "gain": 0.13392253944443333,
+        "unchanged_baseline_distance": 0.5257283001103336,
+        "profile_gain_vs_unchanged": 0.40738290465540355
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.9709640741348267,
+        "profile_distance": 1.0051151116689045,
+        "gain": -0.03415103753407789
+      }
+    },
+    {
+      "track_key": "01c8ba69-8eee-485b-bab0-41a76f9e8892",
+      "representation": "cqt",
+      "changed_target_effect": {
+        "central_distance": 0.08832132848197005,
+        "profile_distance": 0.16128718376113294,
+        "gain": -0.07296585527916288,
+        "unchanged_baseline_distance": 0.7214547613470029,
+        "profile_gain_vs_unchanged": 0.56016757758587
+      },
+      "inside_output_change": {
+        "central_distance": 0.09582587352229488,
+        "profile_distance": 0.12883781289888752,
+        "gain": -0.033011939376592636,
+        "unchanged_baseline_distance": 0.4509026025318437,
+        "profile_gain_vs_unchanged": 0.3220647896329562
+      },
+      "full_output_change": {
+        "central_distance": 0.23112372081312868,
+        "profile_distance": 0.12883781289888752,
+        "gain": 0.10228590791424116,
+        "unchanged_baseline_distance": 0.4509026025318437,
+        "profile_gain_vs_unchanged": 0.3220647896329562
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.9014495611190796,
+        "profile_distance": 0.9054823915163676,
+        "gain": -0.0040328303972879675
+      }
+    },
+    {
+      "track_key": "045dcfd1-e960-4332-80cc-fdacc4a7c6a7",
+      "representation": "cens",
+      "changed_target_effect": {
+        "central_distance": 0.3671387211023188,
+        "profile_distance": 0.09422313946504102,
+        "gain": 0.2729155816372778,
+        "unchanged_baseline_distance": 0.632410812581779,
+        "profile_gain_vs_unchanged": 0.538187673116738
+      },
+      "inside_output_change": {
+        "central_distance": 0.1286833822313282,
+        "profile_distance": 0.038383637554943506,
+        "gain": 0.09029974467638469,
+        "unchanged_baseline_distance": 0.35465912438101244,
+        "profile_gain_vs_unchanged": 0.31627548682606893
+      },
+      "full_output_change": {
+        "central_distance": 0.09395962353381848,
+        "profile_distance": 0.038383637554943506,
+        "gain": 0.055575985978874975,
+        "unchanged_baseline_distance": 0.35465912438101244,
+        "profile_gain_vs_unchanged": 0.31627548682606893
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.8784679174423218,
+        "profile_distance": 0.8845319350560507,
+        "gain": -0.006064017613728878
+      }
+    },
+    {
+      "track_key": "045dcfd1-e960-4332-80cc-fdacc4a7c6a7",
+      "representation": "cqt",
+      "changed_target_effect": {
+        "central_distance": 0.33595502278170253,
+        "profile_distance": 0.09090005000571905,
+        "gain": 0.24505497277598348,
+        "unchanged_baseline_distance": 0.537125782113725,
+        "profile_gain_vs_unchanged": 0.4462257321080059
+      },
+      "inside_output_change": {
+        "central_distance": 0.12877385525239837,
+        "profile_distance": 0.02578241605725551,
+        "gain": 0.10299143919514286,
+        "unchanged_baseline_distance": 0.2923775133159426,
+        "profile_gain_vs_unchanged": 0.2665950972586871
+      },
+      "full_output_change": {
+        "central_distance": 0.06255948916077617,
+        "profile_distance": 0.02578241605725551,
+        "gain": 0.03677707310352066,
+        "unchanged_baseline_distance": 0.2923775133159426,
+        "profile_gain_vs_unchanged": 0.2665950972586871
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.7908675074577332,
+        "profile_distance": 0.7821293473243713,
+        "gain": 0.008738160133361816
+      }
+    },
+    {
+      "track_key": "21ce1331-6066-4ff4-9a54-f6f62bb5fb0d",
+      "representation": "cens",
+      "changed_target_effect": {
+        "central_distance": 0.7477715859500846,
+        "profile_distance": 0.05119501406478888,
+        "gain": 0.6965765718852958,
+        "unchanged_baseline_distance": 0.5253568355384357,
+        "profile_gain_vs_unchanged": 0.4741618214736468
+      },
+      "inside_output_change": {
+        "central_distance": 0.28237055691461704,
+        "profile_distance": 0.03119659281912296,
+        "gain": 0.2511739640954941,
+        "unchanged_baseline_distance": 0.3888015801471378,
+        "profile_gain_vs_unchanged": 0.3576049873280148
+      },
+      "full_output_change": {
+        "central_distance": 0.04199925251305103,
+        "profile_distance": 0.036632503072420775,
+        "gain": 0.0053667494406302585,
+        "unchanged_baseline_distance": 0.36693520781894523,
+        "profile_gain_vs_unchanged": 0.33030270474652446
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.9390875895818075,
+        "profile_distance": 0.8720951080322266,
+        "gain": 0.06699248154958093
+      }
+    },
+    {
+      "track_key": "21ce1331-6066-4ff4-9a54-f6f62bb5fb0d",
+      "representation": "cqt",
+      "changed_target_effect": {
+        "central_distance": 0.6154532184870705,
+        "profile_distance": 0.029185742081620003,
+        "gain": 0.5862674764054505,
+        "unchanged_baseline_distance": 0.4424520513392018,
+        "profile_gain_vs_unchanged": 0.4132663092575818
+      },
+      "inside_output_change": {
+        "central_distance": 0.21171147722218725,
+        "profile_distance": 0.007685285238992701,
+        "gain": 0.20402619198319455,
+        "unchanged_baseline_distance": 0.33002846155847815,
+        "profile_gain_vs_unchanged": 0.32234317631948545
+      },
+      "full_output_change": {
+        "central_distance": 0.04810994097756016,
+        "profile_distance": 0.014313760730955305,
+        "gain": 0.03379618024660486,
+        "unchanged_baseline_distance": 0.3117063500814968,
+        "profile_gain_vs_unchanged": 0.29739258935054147
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.8606065313021342,
+        "profile_distance": 0.7791053255399069,
+        "gain": 0.0815012057622273
+      }
+    },
+    {
+      "track_key": "22d265ef-ee2b-4aba-8d60-c3430295cd6d",
+      "representation": "cens",
+      "changed_target_effect": {
+        "central_distance": 0.3796749617025471,
+        "profile_distance": 0.046839119655580186,
+        "gain": 0.3328358420469669,
+        "unchanged_baseline_distance": 0.6835151113312904,
+        "profile_gain_vs_unchanged": 0.6366759916757102
+      },
+      "inside_output_change": {
+        "central_distance": 0.1495089432413595,
+        "profile_distance": 0.04850531553012738,
+        "gain": 0.10100362771123211,
+        "unchanged_baseline_distance": 0.4090242118075274,
+        "profile_gain_vs_unchanged": 0.3605188962774
+      },
+      "full_output_change": {
+        "central_distance": 0.099850461507837,
+        "profile_distance": 0.04494017921388149,
+        "gain": 0.054910282293955504,
+        "unchanged_baseline_distance": 0.4026035691301028,
+        "profile_gain_vs_unchanged": 0.3576633899162213
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.8754772146542867,
+        "profile_distance": 0.9079434076944987,
+        "gain": -0.03246619304021192
+      }
+    },
+    {
+      "track_key": "22d265ef-ee2b-4aba-8d60-c3430295cd6d",
+      "representation": "cqt",
+      "changed_target_effect": {
+        "central_distance": 0.29507459721118845,
+        "profile_distance": 0.07489762802721955,
+        "gain": 0.2201769691839689,
+        "unchanged_baseline_distance": 0.6223686502736441,
+        "profile_gain_vs_unchanged": 0.5474710222464245
+      },
+      "inside_output_change": {
+        "central_distance": 0.12480824397525919,
+        "profile_distance": 0.04150182527044538,
+        "gain": 0.08330641870481381,
+        "unchanged_baseline_distance": 0.3369890753773676,
+        "profile_gain_vs_unchanged": 0.29548725010692223
+      },
+      "full_output_change": {
+        "central_distance": 0.0871336799528864,
+        "profile_distance": 0.03810526513391066,
+        "gain": 0.04902841481897574,
+        "unchanged_baseline_distance": 0.33105497476127416,
+        "profile_gain_vs_unchanged": 0.2929497096273635
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.7990265885988871,
+        "profile_distance": 0.7944361964861552,
+        "gain": 0.004590392112731934
+      }
+    },
+    {
+      "track_key": "2b4e8304-c92d-4347-b09e-cfb9b3e29bf2",
+      "representation": "cens",
+      "changed_target_effect": {
+        "central_distance": 0.642844588245437,
+        "profile_distance": 0.16328775144203883,
+        "gain": 0.47955683680339817,
+        "unchanged_baseline_distance": 0.4800511374740955,
+        "profile_gain_vs_unchanged": 0.31676338603205667
+      },
+      "inside_output_change": {
+        "central_distance": 0.19519657198674023,
+        "profile_distance": 0.03746126706783587,
+        "gain": 0.15773530491890436,
+        "unchanged_baseline_distance": 0.4795450862401571,
+        "profile_gain_vs_unchanged": 0.44208381917232126
+      },
+      "full_output_change": {
+        "central_distance": 0.11473277630284429,
+        "profile_distance": 0.027358105613125683,
+        "gain": 0.0873746706897186,
+        "unchanged_baseline_distance": 0.3746578852749533,
+        "profile_gain_vs_unchanged": 0.3472997796618276
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 1.0054346124331157,
+        "profile_distance": 0.6729535659154257,
+        "gain": 0.33248104651769006
+      }
+    },
+    {
+      "track_key": "2b4e8304-c92d-4347-b09e-cfb9b3e29bf2",
+      "representation": "cqt",
+      "changed_target_effect": {
+        "central_distance": 0.5010982972903549,
+        "profile_distance": 0.10204854849684264,
+        "gain": 0.3990497487935123,
+        "unchanged_baseline_distance": 0.45866929034181547,
+        "profile_gain_vs_unchanged": 0.35662074184497283
+      },
+      "inside_output_change": {
+        "central_distance": 0.153183249470133,
+        "profile_distance": 0.06127425684378707,
+        "gain": 0.09190899262634594,
+        "unchanged_baseline_distance": 0.44099678251987856,
+        "profile_gain_vs_unchanged": 0.3797225256760915
+      },
+      "full_output_change": {
+        "central_distance": 0.10753389137486613,
+        "profile_distance": 0.05532622813350624,
+        "gain": 0.05220766324135989,
+        "unchanged_baseline_distance": 0.35096970966292756,
+        "profile_gain_vs_unchanged": 0.2956434815294213
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.9548788070678711,
+        "profile_distance": 0.5886320471763611,
+        "gain": 0.36624675989151
+      }
+    },
+    {
+      "track_key": "2c020edb-5947-4fa7-afea-ebc592cea683",
+      "representation": "cens",
+      "changed_target_effect": {
+        "central_distance": 0.2889067917416376,
+        "profile_distance": 0.06433999819592484,
+        "gain": 0.22456679354571274,
+        "unchanged_baseline_distance": 0.5688535357644964,
+        "profile_gain_vs_unchanged": 0.5045135375685715
+      },
+      "inside_output_change": {
+        "central_distance": 0.116391245219292,
+        "profile_distance": 0.019163380969654364,
+        "gain": 0.09722786424963764,
+        "unchanged_baseline_distance": 0.4081940434195779,
+        "profile_gain_vs_unchanged": 0.3890306624499235
+      },
+      "full_output_change": {
+        "central_distance": 0.043288890479339426,
+        "profile_distance": 0.013506047427654266,
+        "gain": 0.02978284305168516,
+        "unchanged_baseline_distance": 0.3908561145265897,
+        "profile_gain_vs_unchanged": 0.3773500670989354
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.9100860357284546,
+        "profile_distance": 0.8049460848172506,
+        "gain": 0.10513995091120398
+      }
+    },
+    {
+      "track_key": "2c020edb-5947-4fa7-afea-ebc592cea683",
+      "representation": "cqt",
+      "changed_target_effect": {
+        "central_distance": 0.17877700982182754,
+        "profile_distance": 0.06272619989070904,
+        "gain": 0.11605080993111849,
+        "unchanged_baseline_distance": 0.511750723606533,
+        "profile_gain_vs_unchanged": 0.4490245237158239
+      },
+      "inside_output_change": {
+        "central_distance": 0.0914763865823095,
+        "profile_distance": 0.028920852550954557,
+        "gain": 0.06255553403135494,
+        "unchanged_baseline_distance": 0.3496668889667049,
+        "profile_gain_vs_unchanged": 0.32074603641575034
+      },
+      "full_output_change": {
+        "central_distance": 0.04263209882709712,
+        "profile_distance": 0.01959372539487153,
+        "gain": 0.02303837343222559,
+        "unchanged_baseline_distance": 0.33769144862890244,
+        "profile_gain_vs_unchanged": 0.3180977232340309
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.8284275730450948,
+        "profile_distance": 0.7207580208778381,
+        "gain": 0.10766955216725671
+      }
+    },
+    {
+      "track_key": "36ee7fc6-604c-4a75-b4f0-0a9ceef3b9cb",
+      "representation": "cens",
+      "changed_target_effect": {
+        "central_distance": 0.5608616920143475,
+        "profile_distance": 0.29257083055828714,
+        "gain": 0.2682908614560604,
+        "unchanged_baseline_distance": 0.5516777731459083,
+        "profile_gain_vs_unchanged": 0.2591069425876211
+      },
+      "inside_output_change": {
+        "central_distance": 0.2733357064425946,
+        "profile_distance": 0.06982088120033347,
+        "gain": 0.2035148252422611,
+        "unchanged_baseline_distance": 0.32733510558803874,
+        "profile_gain_vs_unchanged": 0.25751422438770527
+      },
+      "full_output_change": {
+        "central_distance": 0.05141094368365079,
+        "profile_distance": 0.0493104182597664,
+        "gain": 0.002100525423884392,
+        "unchanged_baseline_distance": 0.2866170037951734,
+        "profile_gain_vs_unchanged": 0.237306585535407
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.9742347796758016,
+        "profile_distance": 0.8265911142031351,
+        "gain": 0.1476436654726665
+      }
+    },
+    {
+      "track_key": "36ee7fc6-604c-4a75-b4f0-0a9ceef3b9cb",
+      "representation": "cqt",
+      "changed_target_effect": {
+        "central_distance": 0.495125486214692,
+        "profile_distance": 0.26968143120305754,
+        "gain": 0.22544405501163445,
+        "unchanged_baseline_distance": 0.4447537886740802,
+        "profile_gain_vs_unchanged": 0.17507235747102268
+      },
+      "inside_output_change": {
+        "central_distance": 0.213451258217295,
+        "profile_distance": 0.06148815651734668,
+        "gain": 0.1519631016999483,
+        "unchanged_baseline_distance": 0.26366258847216767,
+        "profile_gain_vs_unchanged": 0.202174431954821
+      },
+      "full_output_change": {
+        "central_distance": 0.04333148855302063,
+        "profile_distance": 0.04248801701598695,
+        "gain": 0.0008434715370336798,
+        "unchanged_baseline_distance": 0.22263850851191416,
+        "profile_gain_vs_unchanged": 0.1801504914959272
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.8450938065846761,
+        "profile_distance": 0.7253000934918722,
+        "gain": 0.11979371309280396
+      }
+    },
+    {
+      "track_key": "53808b95-cfe9-461d-a113-ffadf32817a1",
+      "representation": "cens",
+      "changed_target_effect": {
+        "central_distance": 0.23409337122141927,
+        "profile_distance": 0.17306656446288748,
+        "gain": 0.06102680675853178,
+        "unchanged_baseline_distance": 0.549488304674394,
+        "profile_gain_vs_unchanged": 0.37642174021150654
+      },
+      "inside_output_change": {
+        "central_distance": 0.00415746640470438,
+        "profile_distance": 0.006862845158938202,
+        "gain": -0.0027053787542338226,
+        "unchanged_baseline_distance": 0.5300080286282481,
+        "profile_gain_vs_unchanged": 0.5231451834693099
+      },
+      "full_output_change": {
+        "central_distance": 0.19439346514021366,
+        "profile_distance": 0.020209246418542437,
+        "gain": 0.17418421872167122,
+        "unchanged_baseline_distance": 0.5158231318410901,
+        "profile_gain_vs_unchanged": 0.49561388542254764
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.9474851290384928,
+        "profile_distance": 0.8899086316426595,
+        "gain": 0.05757649739583326
+      }
+    },
+    {
+      "track_key": "53808b95-cfe9-461d-a113-ffadf32817a1",
+      "representation": "cqt",
+      "changed_target_effect": {
+        "central_distance": 0.17674907465805717,
+        "profile_distance": 0.12997209861533515,
+        "gain": 0.04677697604272202,
+        "unchanged_baseline_distance": 0.45912688759908654,
+        "profile_gain_vs_unchanged": 0.3291547889837514
+      },
+      "inside_output_change": {
+        "central_distance": 0.005434476968013857,
+        "profile_distance": 0.009118679798010676,
+        "gain": -0.003684202829996819,
+        "unchanged_baseline_distance": 0.46652269498868426,
+        "profile_gain_vs_unchanged": 0.4574040151906736
+      },
+      "full_output_change": {
+        "central_distance": 0.15602512409289676,
+        "profile_distance": 0.019841918928755586,
+        "gain": 0.13618320516414117,
+        "unchanged_baseline_distance": 0.45404254645109177,
+        "profile_gain_vs_unchanged": 0.4342006275223362
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.8952682813008627,
+        "profile_distance": 0.8072563012441,
+        "gain": 0.0880119800567627
+      }
+    },
+    {
+      "track_key": "6e50565e-8179-4913-af54-a2a7f0dcab2f",
+      "representation": "cens",
+      "changed_target_effect": {
+        "central_distance": 0.776321029662473,
+        "profile_distance": 0.2225739885482731,
+        "gain": 0.5537470411141998,
+        "unchanged_baseline_distance": 0.37090414898713936,
+        "profile_gain_vs_unchanged": 0.14833016043886627
+      },
+      "inside_output_change": {
+        "central_distance": 0.20529158211623633,
+        "profile_distance": 0.07065002485695815,
+        "gain": 0.13464155725927818,
+        "unchanged_baseline_distance": 0.4542861981317401,
+        "profile_gain_vs_unchanged": 0.38363617327478194
+      },
+      "full_output_change": {
+        "central_distance": 0.024581436947402002,
+        "profile_distance": 0.07065002485695815,
+        "gain": -0.04606858790955615,
+        "unchanged_baseline_distance": 0.4542861981317401,
+        "profile_gain_vs_unchanged": 0.38363617327478194
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.8332455555597941,
+        "profile_distance": 0.8515425324440002,
+        "gain": -0.018296976884206173
+      }
+    },
+    {
+      "track_key": "6e50565e-8179-4913-af54-a2a7f0dcab2f",
+      "representation": "cqt",
+      "changed_target_effect": {
+        "central_distance": 0.6751945501444965,
+        "profile_distance": 0.23319626538242577,
+        "gain": 0.4419982847620707,
+        "unchanged_baseline_distance": 0.26596768139009974,
+        "profile_gain_vs_unchanged": 0.03277141600767397
+      },
+      "inside_output_change": {
+        "central_distance": 0.16480896063148975,
+        "profile_distance": 0.05554675786859464,
+        "gain": 0.10926220276289511,
+        "unchanged_baseline_distance": 0.40320880711078644,
+        "profile_gain_vs_unchanged": 0.3476620492421918
+      },
+      "full_output_change": {
+        "central_distance": 0.009237421676516533,
+        "profile_distance": 0.05554675786859464,
+        "gain": -0.04630933619207811,
+        "unchanged_baseline_distance": 0.40320880711078644,
+        "profile_gain_vs_unchanged": 0.3476620492421918
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.7540778319040934,
+        "profile_distance": 0.7575068473815918,
+        "gain": -0.0034290154774984094
+      }
+    },
+    {
+      "track_key": "765d5131-afd9-4ad7-8786-8bef5705c1c2",
+      "representation": "cens",
+      "changed_target_effect": {
+        "central_distance": 0.43191548534292384,
+        "profile_distance": 0.12433674241869014,
+        "gain": 0.3075787429242337,
+        "unchanged_baseline_distance": 0.45081003763489963,
+        "profile_gain_vs_unchanged": 0.3264732952162095
+      },
+      "inside_output_change": {
+        "central_distance": 0.04173237276041786,
+        "profile_distance": 0.07566714269064728,
+        "gain": -0.033934769930229425,
+        "unchanged_baseline_distance": 0.4921971444217932,
+        "profile_gain_vs_unchanged": 0.4165300017311459
+      },
+      "full_output_change": {
+        "central_distance": 0.10310108814802432,
+        "profile_distance": 0.038301305948860054,
+        "gain": 0.06479978219916427,
+        "unchanged_baseline_distance": 0.4198619544299112,
+        "profile_gain_vs_unchanged": 0.38156064848105115
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.8950641552607218,
+        "profile_distance": 0.8783114949862162,
+        "gain": 0.016752660274505615
+      }
+    },
+    {
+      "track_key": "765d5131-afd9-4ad7-8786-8bef5705c1c2",
+      "representation": "cqt",
+      "changed_target_effect": {
+        "central_distance": 0.40671695716241685,
+        "profile_distance": 0.12226452233455964,
+        "gain": 0.2844524348278572,
+        "unchanged_baseline_distance": 0.3858013341153588,
+        "profile_gain_vs_unchanged": 0.26353681178079913
+      },
+      "inside_output_change": {
+        "central_distance": 0.004392393110763504,
+        "profile_distance": 0.0896125641607104,
+        "gain": -0.08522017104994689,
+        "unchanged_baseline_distance": 0.4345264349664961,
+        "profile_gain_vs_unchanged": 0.3449138708057857
+      },
+      "full_output_change": {
+        "central_distance": 0.12128388923075464,
+        "profile_distance": 0.05060847869349849,
+        "gain": 0.07067541053725615,
+        "unchanged_baseline_distance": 0.3698172933525509,
+        "profile_gain_vs_unchanged": 0.31920881465905243
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.8446122606595358,
+        "profile_distance": 0.8521660566329956,
+        "gain": -0.0075537959734598425
+      }
+    },
+    {
+      "track_key": "793b98a0-c776-4943-87eb-b7e07e50f531",
+      "representation": "cens",
+      "changed_target_effect": {
+        "central_distance": 0.19150230726363282,
+        "profile_distance": 0.01283132538626286,
+        "gain": 0.17867098187736996,
+        "unchanged_baseline_distance": 1.1594775362881995,
+        "profile_gain_vs_unchanged": 1.1466462109019366
+      },
+      "inside_output_change": {
+        "central_distance": 0.02640297201125774,
+        "profile_distance": 0.07306661077826804,
+        "gain": -0.046663638767010296,
+        "unchanged_baseline_distance": 0.7047995554231522,
+        "profile_gain_vs_unchanged": 0.6317329446448842
+      },
+      "full_output_change": {
+        "central_distance": 0.34615030793550744,
+        "profile_distance": 0.07306661077826804,
+        "gain": 0.2730836971572394,
+        "unchanged_baseline_distance": 0.7047995554231522,
+        "profile_gain_vs_unchanged": 0.6317329446448842
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 1.0686438083648682,
+        "profile_distance": 0.9419763882954916,
+        "gain": 0.1266674200693766
+      }
+    },
+    {
+      "track_key": "793b98a0-c776-4943-87eb-b7e07e50f531",
+      "representation": "cqt",
+      "changed_target_effect": {
+        "central_distance": 0.1761669681666166,
+        "profile_distance": 0.005640623511602438,
+        "gain": 0.17052634465501415,
+        "unchanged_baseline_distance": 0.9558600238925808,
+        "profile_gain_vs_unchanged": 0.9502194003809784
+      },
+      "inside_output_change": {
+        "central_distance": 0.010942861023876427,
+        "profile_distance": 0.056845539145999435,
+        "gain": -0.04590267812212301,
+        "unchanged_baseline_distance": 0.575580864937769,
+        "profile_gain_vs_unchanged": 0.5187353257917696
+      },
+      "full_output_change": {
+        "central_distance": 0.26469128185676205,
+        "profile_distance": 0.056845539145999435,
+        "gain": 0.20784574271076262,
+        "unchanged_baseline_distance": 0.575580864937769,
+        "profile_gain_vs_unchanged": 0.5187353257917696
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.9987550377845764,
+        "profile_distance": 0.8707006573677063,
+        "gain": 0.12805438041687012
+      }
+    },
+    {
+      "track_key": "825f697d-5fcd-4429-ba33-23163c726ca7",
+      "representation": "cens",
+      "changed_target_effect": {
+        "central_distance": 0.46224047418671677,
+        "profile_distance": 0.007161455456702881,
+        "gain": 0.4550790187300139,
+        "unchanged_baseline_distance": 0.7140457140059446,
+        "profile_gain_vs_unchanged": 0.7068842585492418
+      },
+      "inside_output_change": {
+        "central_distance": 0.15870859031565487,
+        "profile_distance": 0.0463682735959689,
+        "gain": 0.11234031671968597,
+        "unchanged_baseline_distance": 0.39905541064217687,
+        "profile_gain_vs_unchanged": 0.35268713704620797
+      },
+      "full_output_change": {
+        "central_distance": 0.051992124541559104,
+        "profile_distance": 0.02790576302342951,
+        "gain": 0.024086361518129595,
+        "unchanged_baseline_distance": 0.31245633990814287,
+        "profile_gain_vs_unchanged": 0.28455057688471336
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.8717927932739258,
+        "profile_distance": 0.7316063841183981,
+        "gain": 0.1401864091555277
+      }
+    },
+    {
+      "track_key": "825f697d-5fcd-4429-ba33-23163c726ca7",
+      "representation": "cqt",
+      "changed_target_effect": {
+        "central_distance": 0.4009749139674449,
+        "profile_distance": 0.03366010082907289,
+        "gain": 0.367314813138372,
+        "unchanged_baseline_distance": 0.604544740070594,
+        "profile_gain_vs_unchanged": 0.5708846392415211
+      },
+      "inside_output_change": {
+        "central_distance": 0.07983214966952801,
+        "profile_distance": 0.030811324094732584,
+        "gain": 0.049020825574795424,
+        "unchanged_baseline_distance": 0.36498583915332955,
+        "profile_gain_vs_unchanged": 0.33417451505859697
+      },
+      "full_output_change": {
+        "central_distance": 0.0894298710756832,
+        "profile_distance": 0.018755972799327614,
+        "gain": 0.07067389827635559,
+        "unchanged_baseline_distance": 0.2864958366586103,
+        "profile_gain_vs_unchanged": 0.26773986385928267
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.7985493143399557,
+        "profile_distance": 0.6778746247291565,
+        "gain": 0.12067468961079919
+      }
+    },
+    {
+      "track_key": "8a307c5d-9d65-4f1c-a024-5eaeff1faa34",
+      "representation": "cens",
+      "changed_target_effect": {
+        "central_distance": 0.13553034879432557,
+        "profile_distance": 0.019586296135641224,
+        "gain": 0.11594405265868435,
+        "unchanged_baseline_distance": 0.7078730622696982,
+        "profile_gain_vs_unchanged": 0.6882867661340569
+      },
+      "inside_output_change": {
+        "central_distance": 0.007153537178722524,
+        "profile_distance": 0.02141795828938481,
+        "gain": -0.014264421110662284,
+        "unchanged_baseline_distance": 0.4676453356941541,
+        "profile_gain_vs_unchanged": 0.4462273774047693
+      },
+      "full_output_change": {
+        "central_distance": 0.11797607530994964,
+        "profile_distance": 0.011866440168685377,
+        "gain": 0.10610963514126426,
+        "unchanged_baseline_distance": 0.4126833226117823,
+        "profile_gain_vs_unchanged": 0.40081688244309693
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.9746591846148173,
+        "profile_distance": 0.8493848443031311,
+        "gain": 0.12527434031168616
+      }
+    },
+    {
+      "track_key": "8a307c5d-9d65-4f1c-a024-5eaeff1faa34",
+      "representation": "cqt",
+      "changed_target_effect": {
+        "central_distance": 0.08733399318174895,
+        "profile_distance": 0.018975265015070186,
+        "gain": 0.06835872816667876,
+        "unchanged_baseline_distance": 0.6173985190313611,
+        "profile_gain_vs_unchanged": 0.5984232540162909
+      },
+      "inside_output_change": {
+        "central_distance": 0.0005033137897649809,
+        "profile_distance": 0.0069214870532352535,
+        "gain": -0.006418173263470273,
+        "unchanged_baseline_distance": 0.41110824644565575,
+        "profile_gain_vs_unchanged": 0.4041867593924205
+      },
+      "full_output_change": {
+        "central_distance": 0.10898675107293665,
+        "profile_distance": 0.008165013458993786,
+        "gain": 0.10082173761394286,
+        "unchanged_baseline_distance": 0.36098828332291716,
+        "profile_gain_vs_unchanged": 0.35282326986392337
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.9064078132311503,
+        "profile_distance": 0.7809160947799683,
+        "gain": 0.125491718451182
+      }
+    },
+    {
+      "track_key": "95378cf3-e939-42e0-b486-ebf2ca951664",
+      "representation": "cens",
+      "changed_target_effect": {
+        "central_distance": 0.4827915553690252,
+        "profile_distance": 0.24583912469339586,
+        "gain": 0.23695243067562932,
+        "unchanged_baseline_distance": 0.698756380578085,
+        "profile_gain_vs_unchanged": 0.4529172558846891
+      },
+      "inside_output_change": {
+        "central_distance": 0.09279802297371331,
+        "profile_distance": 0.09937350513649146,
+        "gain": -0.006575482162778146,
+        "unchanged_baseline_distance": 0.5338778010401358,
+        "profile_gain_vs_unchanged": 0.43450429590364437
+      },
+      "full_output_change": {
+        "central_distance": 0.15833583142375585,
+        "profile_distance": 0.09937350513649146,
+        "gain": 0.05896232628726439,
+        "unchanged_baseline_distance": 0.5338778010401358,
+        "profile_gain_vs_unchanged": 0.43450429590364437
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 1.0005738139152527,
+        "profile_distance": 0.8304903308550516,
+        "gain": 0.17008348306020105
+      }
+    },
+    {
+      "track_key": "95378cf3-e939-42e0-b486-ebf2ca951664",
+      "representation": "cqt",
+      "changed_target_effect": {
+        "central_distance": 0.3384815459819377,
+        "profile_distance": 0.13536471526963256,
+        "gain": 0.20311683071230513,
+        "unchanged_baseline_distance": 0.6554732443062337,
+        "profile_gain_vs_unchanged": 0.5201085290366011
+      },
+      "inside_output_change": {
+        "central_distance": 0.01802640387581461,
+        "profile_distance": 0.06102992790854639,
+        "gain": -0.04300352403273178,
+        "unchanged_baseline_distance": 0.4832485537562105,
+        "profile_gain_vs_unchanged": 0.4222186258476641
+      },
+      "full_output_change": {
+        "central_distance": 0.15896244616144234,
+        "profile_distance": 0.06102992790854639,
+        "gain": 0.09793251825289595,
+        "unchanged_baseline_distance": 0.4832485537562105,
+        "profile_gain_vs_unchanged": 0.4222186258476641
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.9201021989186605,
+        "profile_distance": 0.7514229218165079,
+        "gain": 0.16867927710215258
+      }
+    },
+    {
+      "track_key": "9c8a5c66-f6d8-4425-8671-6b7aa6a2663b",
+      "representation": "cens",
+      "changed_target_effect": {
+        "central_distance": 0.571281962765309,
+        "profile_distance": 0.3088624876283686,
+        "gain": 0.26241947513694036,
+        "unchanged_baseline_distance": 0.42722088485215953,
+        "profile_gain_vs_unchanged": 0.11835839722379093
+      },
+      "inside_output_change": {
+        "central_distance": 0.15789552300871496,
+        "profile_distance": 0.0559976582509884,
+        "gain": 0.10189786475772655,
+        "unchanged_baseline_distance": 0.43354993713074835,
+        "profile_gain_vs_unchanged": 0.37755227887975995
+      },
+      "full_output_change": {
+        "central_distance": 0.12300098382143515,
+        "profile_distance": 0.05262303993933731,
+        "gain": 0.07037794388209784,
+        "unchanged_baseline_distance": 0.4291168923179309,
+        "profile_gain_vs_unchanged": 0.37649385237859356
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.9835137526194254,
+        "profile_distance": 0.8467048605283102,
+        "gain": 0.13680889209111524
+      }
+    },
+    {
+      "track_key": "9c8a5c66-f6d8-4425-8671-6b7aa6a2663b",
+      "representation": "cqt",
+      "changed_target_effect": {
+        "central_distance": 0.4396382552312189,
+        "profile_distance": 0.23120900230066466,
+        "gain": 0.20842925293055425,
+        "unchanged_baseline_distance": 0.41436942875434246,
+        "profile_gain_vs_unchanged": 0.1831604264536778
+      },
+      "inside_output_change": {
+        "central_distance": 0.056336511034464465,
+        "profile_distance": 0.008075816043909001,
+        "gain": 0.048260694990555464,
+        "unchanged_baseline_distance": 0.42836878437926806,
+        "profile_gain_vs_unchanged": 0.42029296833535906
+      },
+      "full_output_change": {
+        "central_distance": 0.16337715213497478,
+        "profile_distance": 0.005960855219099226,
+        "gain": 0.15741629691587555,
+        "unchanged_baseline_distance": 0.42221368187003666,
+        "profile_gain_vs_unchanged": 0.41625282665093744
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.9428044358889262,
+        "profile_distance": 0.7860582073529562,
+        "gain": 0.15674622853596998
+      }
+    },
+    {
+      "track_key": "bacbb01f-b877-4d62-8050-992f1d85543a",
+      "representation": "cens",
+      "changed_target_effect": {
+        "central_distance": 0.6728535309489189,
+        "profile_distance": 0.08988816770041352,
+        "gain": 0.5829653632485053,
+        "unchanged_baseline_distance": 0.5774257968564523,
+        "profile_gain_vs_unchanged": 0.4875376291560388
+      },
+      "inside_output_change": {
+        "central_distance": 0.25411661223254417,
+        "profile_distance": 0.0030869069988980202,
+        "gain": 0.25102970523364615,
+        "unchanged_baseline_distance": 0.3655534367443937,
+        "profile_gain_vs_unchanged": 0.3624665297454957
+      },
+      "full_output_change": {
+        "central_distance": 0.023348507885303738,
+        "profile_distance": 0.005596331889844597,
+        "gain": 0.01775217599545914,
+        "unchanged_baseline_distance": 0.34407060500234365,
+        "profile_gain_vs_unchanged": 0.33847427311249906
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 1.04391344388326,
+        "profile_distance": 0.9042937755584717,
+        "gain": 0.13961966832478834
+      }
+    },
+    {
+      "track_key": "bacbb01f-b877-4d62-8050-992f1d85543a",
+      "representation": "cqt",
+      "changed_target_effect": {
+        "central_distance": 0.6185119747749719,
+        "profile_distance": 0.07467540923770805,
+        "gain": 0.5438365655372639,
+        "unchanged_baseline_distance": 0.4770073755176805,
+        "profile_gain_vs_unchanged": 0.4023319662799725
+      },
+      "inside_output_change": {
+        "central_distance": 0.20104195448485285,
+        "profile_distance": 0.0008848666241674796,
+        "gain": 0.20015708786068537,
+        "unchanged_baseline_distance": 0.3111708683497978,
+        "profile_gain_vs_unchanged": 0.3102860017256303
+      },
+      "full_output_change": {
+        "central_distance": 0.02406257390975952,
+        "profile_distance": 0.0031871899134583437,
+        "gain": 0.020875383996301178,
+        "unchanged_baseline_distance": 0.29222455910510486,
+        "profile_gain_vs_unchanged": 0.2890373691916465
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.944858968257904,
+        "profile_distance": 0.8001049359639486,
+        "gain": 0.14475403229395545
+      }
+    },
+    {
+      "track_key": "bb6d72a2-63ba-405e-a2c1-c7442b4190bb",
+      "representation": "cens",
+      "changed_target_effect": {
+        "central_distance": 0.5021409326304827,
+        "profile_distance": 0.024329795282502897,
+        "gain": 0.47781113734797975,
+        "unchanged_baseline_distance": 0.49939588136506236,
+        "profile_gain_vs_unchanged": 0.47506608608255946
+      },
+      "inside_output_change": {
+        "central_distance": 0.12106171191522946,
+        "profile_distance": 0.03884771936818171,
+        "gain": 0.08221399254704775,
+        "unchanged_baseline_distance": 0.4008957414250625,
+        "profile_gain_vs_unchanged": 0.3620480220568808
+      },
+      "full_output_change": {
+        "central_distance": 0.06464265535275143,
+        "profile_distance": 0.041092756721708534,
+        "gain": 0.023549898631042898,
+        "unchanged_baseline_distance": 0.3511849232017994,
+        "profile_gain_vs_unchanged": 0.31009216648009086
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.9161543051401774,
+        "profile_distance": 0.7279967069625854,
+        "gain": 0.18815759817759192
+      }
+    },
+    {
+      "track_key": "bb6d72a2-63ba-405e-a2c1-c7442b4190bb",
+      "representation": "cqt",
+      "changed_target_effect": {
+        "central_distance": 0.3890276820704352,
+        "profile_distance": 0.03790020015232165,
+        "gain": 0.35112748191811355,
+        "unchanged_baseline_distance": 0.43267159936921423,
+        "profile_gain_vs_unchanged": 0.3947713992168926
+      },
+      "inside_output_change": {
+        "central_distance": 0.055631111588394455,
+        "profile_distance": 0.008310233814674495,
+        "gain": 0.04732087777371996,
+        "unchanged_baseline_distance": 0.3816263074414772,
+        "profile_gain_vs_unchanged": 0.3733160736268027
+      },
+      "full_output_change": {
+        "central_distance": 0.08043293365173859,
+        "profile_distance": 0.015714969485998154,
+        "gain": 0.06471796416574044,
+        "unchanged_baseline_distance": 0.3336972242428196,
+        "profile_gain_vs_unchanged": 0.31798225475682146
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.833827535311381,
+        "profile_distance": 0.6160389184951782,
+        "gain": 0.21778861681620276
+      }
+    },
+    {
+      "track_key": "ca080447-fe99-4f6d-98c9-c69b68dacba3",
+      "representation": "cens",
+      "changed_target_effect": {
+        "central_distance": 0.4578702805027772,
+        "profile_distance": 0.025388594780128115,
+        "gain": 0.4324816857226491,
+        "unchanged_baseline_distance": 0.7639053329243355,
+        "profile_gain_vs_unchanged": 0.7385167381442074
+      },
+      "inside_output_change": {
+        "central_distance": 0.16331137472502233,
+        "profile_distance": 0.010795370969725271,
+        "gain": 0.15251600375529706,
+        "unchanged_baseline_distance": 0.5064159940209305,
+        "profile_gain_vs_unchanged": 0.49562062305120524
+      },
+      "full_output_change": {
+        "central_distance": 0.00517751850808662,
+        "profile_distance": 0.021264258008967696,
+        "gain": -0.016086739500881075,
+        "unchanged_baseline_distance": 0.4680243693292141,
+        "profile_gain_vs_unchanged": 0.4467601113202464
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.9809168378512064,
+        "profile_distance": 0.681692639986674,
+        "gain": 0.29922419786453247
+      }
+    },
+    {
+      "track_key": "ca080447-fe99-4f6d-98c9-c69b68dacba3",
+      "representation": "cqt",
+      "changed_target_effect": {
+        "central_distance": 0.4143505101103796,
+        "profile_distance": 0.050000088772229834,
+        "gain": 0.36435042133814977,
+        "unchanged_baseline_distance": 0.6108764879251501,
+        "profile_gain_vs_unchanged": 0.5608763991529203
+      },
+      "inside_output_change": {
+        "central_distance": 0.13372909751508322,
+        "profile_distance": 0.015575537817519969,
+        "gain": 0.11815355969756325,
+        "unchanged_baseline_distance": 0.4162292054347825,
+        "profile_gain_vs_unchanged": 0.4006536676172625
+      },
+      "full_output_change": {
+        "central_distance": 0.05351711271537679,
+        "profile_distance": 0.010694107868605196,
+        "gain": 0.042823004846771595,
+        "unchanged_baseline_distance": 0.4019497577100992,
+        "profile_gain_vs_unchanged": 0.391255649841494
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.899988571802775,
+        "profile_distance": 0.6256670554478964,
+        "gain": 0.27432151635487867
+      }
+    },
+    {
+      "track_key": "d2401d3d-967c-46be-b9a0-3da571105158",
+      "representation": "cens",
+      "changed_target_effect": {
+        "central_distance": 0.18978293937024437,
+        "profile_distance": 0.0222664061007537,
+        "gain": 0.16751653326949068,
+        "unchanged_baseline_distance": 0.7701988680587749,
+        "profile_gain_vs_unchanged": 0.7479324619580212
+      },
+      "inside_output_change": {
+        "central_distance": 0.011862600532670797,
+        "profile_distance": 0.033052404278091085,
+        "gain": -0.021189803745420288,
+        "unchanged_baseline_distance": 0.4599714322636525,
+        "profile_gain_vs_unchanged": 0.4269190279855614
+      },
+      "full_output_change": {
+        "central_distance": 0.1714208937094857,
+        "profile_distance": 0.017642458719718812,
+        "gain": 0.1537784349897669,
+        "unchanged_baseline_distance": 0.42742176734221476,
+        "profile_gain_vs_unchanged": 0.40977930862249595
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.8275371591250101,
+        "profile_distance": 0.850841740767161,
+        "gain": -0.02330458164215088
+      }
+    },
+    {
+      "track_key": "d2401d3d-967c-46be-b9a0-3da571105158",
+      "representation": "cqt",
+      "changed_target_effect": {
+        "central_distance": 0.15322231202201075,
+        "profile_distance": 0.004132994848802807,
+        "gain": 0.14908931717320795,
+        "unchanged_baseline_distance": 0.6401754906265351,
+        "profile_gain_vs_unchanged": 0.6360424957777323
+      },
+      "inside_output_change": {
+        "central_distance": 0.007406906416964898,
+        "profile_distance": 0.010109353396627607,
+        "gain": -0.0027024469796627093,
+        "unchanged_baseline_distance": 0.39474494022036355,
+        "profile_gain_vs_unchanged": 0.38463558682373594
+      },
+      "full_output_change": {
+        "central_distance": 0.14519221045904687,
+        "profile_distance": 0.0014814401252402076,
+        "gain": 0.14371077033380666,
+        "unchanged_baseline_distance": 0.36616797496875125,
+        "profile_gain_vs_unchanged": 0.36468653484351105
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.7728409767150879,
+        "profile_distance": 0.7710630098978678,
+        "gain": 0.001777966817220089
+      }
+    },
+    {
+      "track_key": "d4262245-3143-4c05-8423-6cbdc6253042",
+      "representation": "cens",
+      "changed_target_effect": {
+        "central_distance": 0.4799748881131699,
+        "profile_distance": 0.06999689877060877,
+        "gain": 0.40997798934256113,
+        "unchanged_baseline_distance": 0.5952826062680753,
+        "profile_gain_vs_unchanged": 0.5252857074974665
+      },
+      "inside_output_change": {
+        "central_distance": 0.2200196600622601,
+        "profile_distance": 0.05297837520225179,
+        "gain": 0.1670412848600083,
+        "unchanged_baseline_distance": 0.4277602085429761,
+        "profile_gain_vs_unchanged": 0.3747818333407243
+      },
+      "full_output_change": {
+        "central_distance": 0.0014211881077951793,
+        "profile_distance": 0.05297837520225179,
+        "gain": -0.051557187094456614,
+        "unchanged_baseline_distance": 0.4277602085429761,
+        "profile_gain_vs_unchanged": 0.3747818333407243
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.9264272650082906,
+        "profile_distance": 0.8404002785682678,
+        "gain": 0.08602698644002282
+      }
+    },
+    {
+      "track_key": "d4262245-3143-4c05-8423-6cbdc6253042",
+      "representation": "cqt",
+      "changed_target_effect": {
+        "central_distance": 0.3977694919634832,
+        "profile_distance": 0.06071677732335751,
+        "gain": 0.3370527146401257,
+        "unchanged_baseline_distance": 0.4996861103227275,
+        "profile_gain_vs_unchanged": 0.43896933299936997
+      },
+      "inside_output_change": {
+        "central_distance": 0.2006957543392976,
+        "profile_distance": 0.04656986519694328,
+        "gain": 0.1541258891423543,
+        "unchanged_baseline_distance": 0.3418091821173827,
+        "profile_gain_vs_unchanged": 0.2952393169204394
+      },
+      "full_output_change": {
+        "central_distance": 0.009691375411219005,
+        "profile_distance": 0.04656986519694328,
+        "gain": -0.03687848978572428,
+        "unchanged_baseline_distance": 0.3418091821173827,
+        "profile_gain_vs_unchanged": 0.2952393169204394
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.8482243816057841,
+        "profile_distance": 0.6671267747879028,
+        "gain": 0.18109760681788123
+      }
+    },
+    {
+      "track_key": "d7d28204-a8ac-4c2b-bb3c-c941f4a00b85",
+      "representation": "cens",
+      "changed_target_effect": {
+        "central_distance": 0.6632040770074116,
+        "profile_distance": 0.010680366293005727,
+        "gain": 0.6525237107144058,
+        "unchanged_baseline_distance": 0.9265200516908757,
+        "profile_gain_vs_unchanged": 0.91583968539787
+      },
+      "inside_output_change": {
+        "central_distance": 0.2744430871838024,
+        "profile_distance": 0.027518154098490677,
+        "gain": 0.24692493308531172,
+        "unchanged_baseline_distance": 0.5643554277097186,
+        "profile_gain_vs_unchanged": 0.5368372736112279
+      },
+      "full_output_change": {
+        "central_distance": 0.22272241021912326,
+        "profile_distance": 0.027518154098490677,
+        "gain": 0.19520425612063258,
+        "unchanged_baseline_distance": 0.5643554277097186,
+        "profile_gain_vs_unchanged": 0.5368372736112279
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 1.0770383675893147,
+        "profile_distance": 0.957390824953715,
+        "gain": 0.11964754263559974
+      }
+    },
+    {
+      "track_key": "d7d28204-a8ac-4c2b-bb3c-c941f4a00b85",
+      "representation": "cqt",
+      "changed_target_effect": {
+        "central_distance": 0.524628102902953,
+        "profile_distance": 0.007474976625320373,
+        "gain": 0.5171531262776327,
+        "unchanged_baseline_distance": 0.7700620533254939,
+        "profile_gain_vs_unchanged": 0.7625870767001736
+      },
+      "inside_output_change": {
+        "central_distance": 0.2044316565410958,
+        "profile_distance": 0.024759642986787622,
+        "gain": 0.17967201355430817,
+        "unchanged_baseline_distance": 0.4870328669332796,
+        "profile_gain_vs_unchanged": 0.46227322394649195
+      },
+      "full_output_change": {
+        "central_distance": 0.20618982012901044,
+        "profile_distance": 0.024759642986787622,
+        "gain": 0.18143017714222281,
+        "unchanged_baseline_distance": 0.4870328669332796,
+        "profile_gain_vs_unchanged": 0.46227322394649195
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 1.0099808971087139,
+        "profile_distance": 0.8740020791689554,
+        "gain": 0.1359788179397584
+      }
+    },
+    {
+      "track_key": "e9336d31-c0df-4c91-be2b-7c4420c9cd34",
+      "representation": "cens",
+      "changed_target_effect": {
+        "central_distance": 0.393106439382797,
+        "profile_distance": 0.07037678464808617,
+        "gain": 0.3227296547347108,
+        "unchanged_baseline_distance": 0.7826672385224178,
+        "profile_gain_vs_unchanged": 0.7122904538743317
+      },
+      "inside_output_change": {
+        "central_distance": 0.08867743903139952,
+        "profile_distance": 0.0010012869249310663,
+        "gain": 0.08767615210646845,
+        "unchanged_baseline_distance": 0.4890801101400141,
+        "profile_gain_vs_unchanged": 0.48807882321508306
+      },
+      "full_output_change": {
+        "central_distance": 0.11374963178079472,
+        "profile_distance": 0.009357940819528343,
+        "gain": 0.10439169096126638,
+        "unchanged_baseline_distance": 0.43005943381124073,
+        "profile_gain_vs_unchanged": 0.4207014929917124
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.9149430791536967,
+        "profile_distance": 0.8503325581550598,
+        "gain": 0.06461052099863684
+      }
+    },
+    {
+      "track_key": "e9336d31-c0df-4c91-be2b-7c4420c9cd34",
+      "representation": "cqt",
+      "changed_target_effect": {
+        "central_distance": 0.3581952071617702,
+        "profile_distance": 0.04039574441041238,
+        "gain": 0.31779946275135784,
+        "unchanged_baseline_distance": 0.6395258410260998,
+        "profile_gain_vs_unchanged": 0.5991300966156874
+      },
+      "inside_output_change": {
+        "central_distance": 0.045669084839653595,
+        "profile_distance": 0.004745973306789719,
+        "gain": 0.040923111532863876,
+        "unchanged_baseline_distance": 0.4173811862343236,
+        "profile_gain_vs_unchanged": 0.41263521292753386
+      },
+      "full_output_change": {
+        "central_distance": 0.10766355031066471,
+        "profile_distance": 0.009003321743673742,
+        "gain": 0.09866022856699097,
+        "unchanged_baseline_distance": 0.3581644131077661,
+        "profile_gain_vs_unchanged": 0.34916109136409235
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.843854029973348,
+        "profile_distance": 0.7490008672078451,
+        "gain": 0.09485316276550293
+      }
+    },
+    {
+      "track_key": "f76e2c13-9a9a-4cac-b6dd-45b5111aac6d",
+      "representation": "cens",
+      "changed_target_effect": {
+        "central_distance": 0.38803112091757697,
+        "profile_distance": 0.06849512741345343,
+        "gain": 0.31953599350412354,
+        "unchanged_baseline_distance": 0.7864218916967162,
+        "profile_gain_vs_unchanged": 0.7179267642832627
+      },
+      "inside_output_change": {
+        "central_distance": 0.14271728799988825,
+        "profile_distance": 0.061812592670321465,
+        "gain": 0.08090469532956679,
+        "unchanged_baseline_distance": 0.5193187878777583,
+        "profile_gain_vs_unchanged": 0.45750619520743685
+      },
+      "full_output_change": {
+        "central_distance": 0.0649325435774194,
+        "profile_distance": 0.054472521878778934,
+        "gain": 0.010460021698640465,
+        "unchanged_baseline_distance": 0.45744619735827047,
+        "profile_gain_vs_unchanged": 0.40297367547949153
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 1.027185599009196,
+        "profile_distance": 0.9340481559435526,
+        "gain": 0.09313744306564342
+      }
+    },
+    {
+      "track_key": "f76e2c13-9a9a-4cac-b6dd-45b5111aac6d",
+      "representation": "cqt",
+      "changed_target_effect": {
+        "central_distance": 0.361090373997523,
+        "profile_distance": 0.04891368811051244,
+        "gain": 0.31217668588701053,
+        "unchanged_baseline_distance": 0.671307949025061,
+        "profile_gain_vs_unchanged": 0.6223942609145485
+      },
+      "inside_output_change": {
+        "central_distance": 0.060845971231659246,
+        "profile_distance": 0.0808609160284201,
+        "gain": -0.02001494479676086,
+        "unchanged_baseline_distance": 0.4553214428325494,
+        "profile_gain_vs_unchanged": 0.3744605268041293
+      },
+      "full_output_change": {
+        "central_distance": 0.07000265436040026,
+        "profile_distance": 0.06849203693370015,
+        "gain": 0.0015106174267001116,
+        "unchanged_baseline_distance": 0.3941344956143034,
+        "profile_gain_vs_unchanged": 0.32564245868060326
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.9290709892908732,
+        "profile_distance": 0.831125279267629,
+        "gain": 0.09794571002324415
+      }
+    },
+    {
+      "track_key": "faad432d-6ad0-492d-96f1-321eeb9685b5",
+      "representation": "cens",
+      "changed_target_effect": {
+        "central_distance": 0.6574263724532571,
+        "profile_distance": 0.2793926142534753,
+        "gain": 0.3780337581997818,
+        "unchanged_baseline_distance": 0.6095737463092555,
+        "profile_gain_vs_unchanged": 0.33018113205578026
+      },
+      "inside_output_change": {
+        "central_distance": 0.2841915777621796,
+        "profile_distance": 0.1550752941282495,
+        "gain": 0.12911628363393013,
+        "unchanged_baseline_distance": 0.3732831471023106,
+        "profile_gain_vs_unchanged": 0.2182078529740611
+      },
+      "full_output_change": {
+        "central_distance": 0.0019303710230613724,
+        "profile_distance": 0.13988192666632432,
+        "gain": -0.13795155564326295,
+        "unchanged_baseline_distance": 0.3494895293066899,
+        "profile_gain_vs_unchanged": 0.2096076026403656
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.8274399836858114,
+        "profile_distance": 0.8950997988382975,
+        "gain": -0.06765981515248609
+      }
+    },
+    {
+      "track_key": "faad432d-6ad0-492d-96f1-321eeb9685b5",
+      "representation": "cqt",
+      "changed_target_effect": {
+        "central_distance": 0.5620921039305632,
+        "profile_distance": 0.26307204342050616,
+        "gain": 0.29902006051005703,
+        "unchanged_baseline_distance": 0.5031206720145182,
+        "profile_gain_vs_unchanged": 0.240048628594012
+      },
+      "inside_output_change": {
+        "central_distance": 0.23502890141828664,
+        "profile_distance": 0.12423329327314625,
+        "gain": 0.11079560814514039,
+        "unchanged_baseline_distance": 0.31838386446710615,
+        "profile_gain_vs_unchanged": 0.1941505711939599
+      },
+      "full_output_change": {
+        "central_distance": 0.005521162723501505,
+        "profile_distance": 0.11718251732074547,
+        "gain": -0.11166135459724397,
+        "unchanged_baseline_distance": 0.29892822644776773,
+        "profile_gain_vs_unchanged": 0.18174570912702226
+      },
+      "raw_output_to_replay_distance": {
+        "central_distance": 0.7476306557655334,
+        "profile_distance": 0.7829446593920389,
+        "gain": -0.0353140036265055
+      }
+    }
+  ]
+}

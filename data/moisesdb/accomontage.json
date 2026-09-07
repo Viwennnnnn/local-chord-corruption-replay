@@ -1,0 +1,532 @@
+{
+  "tracks": [
+    {
+      "track_key": "6e50565e-8179-4913-af54-a2a7f0dcab2f",
+      "responses": {
+        "replay": 0.37018692487827937,
+        "central_tritone": 0.8734115041397893,
+        "relation_profile": 0.48889214484429305
+      },
+      "central_distance": 0.50322457926151,
+      "profile_distance": 0.11870521996601369,
+      "gain": 0.3845193592954963,
+      "raw_to_replay": {
+        "baseline": 1.122532756497334,
+        "central_tritone": 1.2158934650218072,
+        "relation_profile": 0.6485452302420648
+      },
+      "onset_density": {
+        "baseline": 7.604166666666665,
+        "replay": 7.291666666666665,
+        "central_tritone": 7.604166666666665,
+        "relation_profile": 7.395833333333332
+      }
+    },
+    {
+      "track_key": "53808b95-cfe9-461d-a113-ffadf32817a1",
+      "responses": {
+        "replay": 0.5439148226337731,
+        "central_tritone": 0.6188802455032629,
+        "relation_profile": 0.617672080868582
+      },
+      "central_distance": 0.07496542286948982,
+      "profile_distance": 0.07375725823480894,
+      "gain": 0.001208164634680875,
+      "raw_to_replay": {
+        "baseline": 1.0993941909090879,
+        "central_tritone": 0.9413473683234149,
+        "relation_profile": 0.7822048423885372
+      },
+      "onset_density": {
+        "baseline": 7.708333333333332,
+        "replay": 7.708333333333332,
+        "central_tritone": 7.604166666666665,
+        "relation_profile": 7.916666666666665
+      }
+    },
+    {
+      "track_key": "e9336d31-c0df-4c91-be2b-7c4420c9cd34",
+      "responses": {
+        "replay": 0.37210456810831805,
+        "central_tritone": 0.6659254681075573,
+        "relation_profile": 0.15542686843386688
+      },
+      "central_distance": 0.2938208999992392,
+      "profile_distance": 0.21667769967445116,
+      "gain": 0.07714320032478805,
+      "raw_to_replay": {
+        "baseline": 0.8458574195783601,
+        "central_tritone": 1.1611715048384812,
+        "relation_profile": 0.6858982143510911
+      },
+      "onset_density": {
+        "baseline": 2.8124999999999996,
+        "replay": 2.8124999999999996,
+        "central_tritone": 2.8124999999999996,
+        "relation_profile": 2.8124999999999996
+      }
+    },
+    {
+      "track_key": "d4262245-3143-4c05-8423-6cbdc6253042",
+      "responses": {
+        "replay": 0.3837068924985395,
+        "central_tritone": 0.6999493156116555,
+        "relation_profile": 0.259983652636922
+      },
+      "central_distance": 0.316242423113116,
+      "profile_distance": 0.12372323986161748,
+      "gain": 0.19251918325149853,
+      "raw_to_replay": {
+        "baseline": 0.9405312217730168,
+        "central_tritone": 1.186996766396199,
+        "relation_profile": 0.6633688117195319
+      },
+      "onset_density": {
+        "baseline": 6.666666666666666,
+        "replay": 6.666666666666666,
+        "central_tritone": 6.666666666666666,
+        "relation_profile": 6.666666666666666
+      }
+    },
+    {
+      "track_key": "d2401d3d-967c-46be-b9a0-3da571105158",
+      "responses": {
+        "replay": 0.5392077137486058,
+        "central_tritone": 0.8206558224393827,
+        "relation_profile": 0.5259916829917543
+      },
+      "central_distance": 0.28144810869077697,
+      "profile_distance": 0.013216030756851516,
+      "gain": 0.26823207793392545,
+      "raw_to_replay": {
+        "baseline": 1.0605710041675105,
+        "central_tritone": 1.0942475775405058,
+        "relation_profile": 0.875418591033221
+      },
+      "onset_density": {
+        "baseline": 7.499999999999999,
+        "replay": 7.604166666666665,
+        "central_tritone": 7.604166666666665,
+        "relation_profile": 7.499999999999999
+      }
+    },
+    {
+      "track_key": "21ce1331-6066-4ff4-9a54-f6f62bb5fb0d",
+      "responses": {
+        "replay": 0.3554323001139228,
+        "central_tritone": 0.7396162072485231,
+        "relation_profile": 0.2523464924490208
+      },
+      "central_distance": 0.38418390713460027,
+      "profile_distance": 0.103085807664902,
+      "gain": 0.28109809946969827,
+      "raw_to_replay": {
+        "baseline": 0.7202753069082425,
+        "central_tritone": 0.8996114991874524,
+        "relation_profile": 0.19138479926984933
+      },
+      "onset_density": {
+        "baseline": 8.020833333333332,
+        "replay": 7.916666666666665,
+        "central_tritone": 8.124999999999998,
+        "relation_profile": 8.020833333333332
+      }
+    },
+    {
+      "track_key": "bacbb01f-b877-4d62-8050-992f1d85543a",
+      "responses": {
+        "replay": 0.2352132883344881,
+        "central_tritone": 0.8469983363208778,
+        "relation_profile": 0.26314469928428647
+      },
+      "central_distance": 0.6117850479863898,
+      "profile_distance": 0.02793141094979837,
+      "gain": 0.5838536370365914,
+      "raw_to_replay": {
+        "baseline": 0.7405425699954703,
+        "central_tritone": 0.9896183093615231,
+        "relation_profile": 0.9408875324438276
+      },
+      "onset_density": {
+        "baseline": 7.187499999999999,
+        "replay": 7.187499999999999,
+        "central_tritone": 7.083333333333332,
+        "relation_profile": 6.979166666666666
+      }
+    },
+    {
+      "track_key": "9c8a5c66-f6d8-4425-8671-6b7aa6a2663b",
+      "responses": {
+        "replay": 0.28665408466779074,
+        "central_tritone": 0.6799118807661201,
+        "relation_profile": 0.35200902225486436
+      },
+      "central_distance": 0.39325779609832934,
+      "profile_distance": 0.06535493758707361,
+      "gain": 0.3279028585112557,
+      "raw_to_replay": {
+        "baseline": 0.9172195206750092,
+        "central_tritone": 1.0358024323350956,
+        "relation_profile": 0.8549818598308428
+      },
+      "onset_density": {
+        "baseline": 6.666666666666666,
+        "replay": 6.562499999999999,
+        "central_tritone": 6.666666666666666,
+        "relation_profile": 6.666666666666666
+      }
+    },
+    {
+      "track_key": "bb6d72a2-63ba-405e-a2c1-c7442b4190bb",
+      "responses": {
+        "replay": 0.3765692901998116,
+        "central_tritone": 0.9250266367122533,
+        "relation_profile": 0.42040187398000217
+      },
+      "central_distance": 0.5484573465124416,
+      "profile_distance": 0.04383258378019056,
+      "gain": 0.5046247627322511,
+      "raw_to_replay": {
+        "baseline": 0.8793699514670937,
+        "central_tritone": 1.0897699815525985,
+        "relation_profile": 0.8672560616990755
+      },
+      "onset_density": {
+        "baseline": 5.520833333333332,
+        "replay": 5.520833333333332,
+        "central_tritone": 5.624999999999999,
+        "relation_profile": 5.520833333333332
+      }
+    },
+    {
+      "track_key": "36ee7fc6-604c-4a75-b4f0-0a9ceef3b9cb",
+      "responses": {
+        "replay": 0.5396074408585946,
+        "central_tritone": 0.9053575212553805,
+        "relation_profile": 0.5673658808290492
+      },
+      "central_distance": 0.3657500803967859,
+      "profile_distance": 0.027758439970454574,
+      "gain": 0.33799164042633134,
+      "raw_to_replay": {
+        "baseline": 0.8257770397787083,
+        "central_tritone": 1.0850688244567708,
+        "relation_profile": 0.8267338638131371
+      },
+      "onset_density": {
+        "baseline": 7.604166666666665,
+        "replay": 7.812499999999999,
+        "central_tritone": 7.604166666666665,
+        "relation_profile": 7.395833333333332
+      }
+    },
+    {
+      "track_key": "01c8ba69-8eee-485b-bab0-41a76f9e8892",
+      "responses": {
+        "replay": 0.4561844746505459,
+        "central_tritone": 0.8814746855421153,
+        "relation_profile": 0.36948371657875195
+      },
+      "central_distance": 0.4252902108915694,
+      "profile_distance": 0.08670075807179395,
+      "gain": 0.3385894528197754,
+      "raw_to_replay": {
+        "baseline": 1.1825199326416163,
+        "central_tritone": 1.1632943674266694,
+        "relation_profile": 1.1050844958801935
+      },
+      "onset_density": {
+        "baseline": 7.187499999999999,
+        "replay": 7.187499999999999,
+        "central_tritone": 7.187499999999999,
+        "relation_profile": 7.395833333333332
+      }
+    },
+    {
+      "track_key": "2c020edb-5947-4fa7-afea-ebc592cea683",
+      "responses": {
+        "replay": 0.28633343716281634,
+        "central_tritone": 0.7844991579026959,
+        "relation_profile": 0.1598224361167044
+      },
+      "central_distance": 0.4981657207398795,
+      "profile_distance": 0.12651100104611193,
+      "gain": 0.3716547196937676,
+      "raw_to_replay": {
+        "baseline": 0.7172059427357849,
+        "central_tritone": 0.7269640975476168,
+        "relation_profile": 0.6784598086848646
+      },
+      "onset_density": {
+        "baseline": 2.916666666666666,
+        "replay": 3.020833333333333,
+        "central_tritone": 2.8124999999999996,
+        "relation_profile": 2.8124999999999996
+      }
+    },
+    {
+      "track_key": "765d5131-afd9-4ad7-8786-8bef5705c1c2",
+      "responses": {
+        "replay": 0.4689505157289778,
+        "central_tritone": 0.795207205906982,
+        "relation_profile": 0.5927431689096391
+      },
+      "central_distance": 0.32625669017800424,
+      "profile_distance": 0.1237926531806613,
+      "gain": 0.20246403699734294,
+      "raw_to_replay": {
+        "baseline": 0.6504379625570534,
+        "central_tritone": 0.7824611976389818,
+        "relation_profile": 0.8121758166210254
+      },
+      "onset_density": {
+        "baseline": 8.124999999999998,
+        "replay": 8.124999999999998,
+        "central_tritone": 8.020833333333332,
+        "relation_profile": 8.124999999999998
+      }
+    },
+    {
+      "track_key": "825f697d-5fcd-4429-ba33-23163c726ca7",
+      "responses": {
+        "replay": 0.36707863528038975,
+        "central_tritone": 0.9282825265425925,
+        "relation_profile": 0.37125711475355416
+      },
+      "central_distance": 0.5612038912622027,
+      "profile_distance": 0.004178479473164409,
+      "gain": 0.5570254117890383,
+      "raw_to_replay": {
+        "baseline": 0.9288538519532916,
+        "central_tritone": 1.0900744695736952,
+        "relation_profile": 0.6682499557672719
+      },
+      "onset_density": {
+        "baseline": 7.395833333333332,
+        "replay": 7.604166666666665,
+        "central_tritone": 7.604166666666665,
+        "relation_profile": 7.604166666666665
+      }
+    },
+    {
+      "track_key": "faad432d-6ad0-492d-96f1-321eeb9685b5",
+      "responses": {
+        "replay": 0.5026411999699159,
+        "central_tritone": 0.8012793874743878,
+        "relation_profile": 0.5326403676309615
+      },
+      "central_distance": 0.2986381875044719,
+      "profile_distance": 0.0299991676610456,
+      "gain": 0.2686390198434263,
+      "raw_to_replay": {
+        "baseline": 0.9665631111799041,
+        "central_tritone": 0.8705624697232932,
+        "relation_profile": 0.8497111683276164
+      },
+      "onset_density": {
+        "baseline": 7.499999999999999,
+        "replay": 7.499999999999999,
+        "central_tritone": 7.499999999999999,
+        "relation_profile": 7.499999999999999
+      }
+    },
+    {
+      "track_key": "045dcfd1-e960-4332-80cc-fdacc4a7c6a7",
+      "responses": {
+        "replay": 0.3860380169863278,
+        "central_tritone": 0.8317117461921983,
+        "relation_profile": 0.3599681231330152
+      },
+      "central_distance": 0.44567372920587056,
+      "profile_distance": 0.026069893853312598,
+      "gain": 0.41960383535255796,
+      "raw_to_replay": {
+        "baseline": 0.9557645022916144,
+        "central_tritone": 1.080274157176604,
+        "relation_profile": 0.8217341958564356
+      },
+      "onset_density": {
+        "baseline": 7.291666666666665,
+        "replay": 7.291666666666665,
+        "central_tritone": 7.395833333333332,
+        "relation_profile": 7.499999999999999
+      }
+    },
+    {
+      "track_key": "22d265ef-ee2b-4aba-8d60-c3430295cd6d",
+      "responses": {
+        "replay": 0.2366093937010798,
+        "central_tritone": 0.781388122912372,
+        "relation_profile": 0.24527958900822544
+      },
+      "central_distance": 0.5447787292112922,
+      "profile_distance": 0.008670195307145634,
+      "gain": 0.5361085339041466,
+      "raw_to_replay": {
+        "baseline": 0.6046391618779489,
+        "central_tritone": 0.8329651881008443,
+        "relation_profile": 1.0185873251503765
+      },
+      "onset_density": {
+        "baseline": 2.708333333333333,
+        "replay": 2.916666666666666,
+        "central_tritone": 2.916666666666666,
+        "relation_profile": 2.708333333333333
+      }
+    },
+    {
+      "track_key": "95378cf3-e939-42e0-b486-ebf2ca951664",
+      "responses": {
+        "replay": 0.5609730364644784,
+        "central_tritone": 0.8914009887196996,
+        "relation_profile": 0.5321583583575397
+      },
+      "central_distance": 0.33042795225522126,
+      "profile_distance": 0.028814678106938718,
+      "gain": 0.30161327414828254,
+      "raw_to_replay": {
+        "baseline": 1.1647657965149698,
+        "central_tritone": 1.3291856049202253,
+        "relation_profile": 1.112969699598212
+      },
+      "onset_density": {
+        "baseline": 7.708333333333332,
+        "replay": 7.395833333333332,
+        "central_tritone": 7.916666666666665,
+        "relation_profile": 7.604166666666665
+      }
+    },
+    {
+      "track_key": "f76e2c13-9a9a-4cac-b6dd-45b5111aac6d",
+      "responses": {
+        "replay": 0.2965179065400446,
+        "central_tritone": 0.6872232592651583,
+        "relation_profile": 0.20811913421884265
+      },
+      "central_distance": 0.39070535272511364,
+      "profile_distance": 0.08839877232120197,
+      "gain": 0.3023065804039117,
+      "raw_to_replay": {
+        "baseline": 0.8569707868520937,
+        "central_tritone": 0.6266877590478142,
+        "relation_profile": 0.7138725933161849
+      },
+      "onset_density": {
+        "baseline": 2.708333333333333,
+        "replay": 2.8124999999999996,
+        "central_tritone": 2.708333333333333,
+        "relation_profile": 2.916666666666666
+      }
+    },
+    {
+      "track_key": "8a307c5d-9d65-4f1c-a024-5eaeff1faa34",
+      "responses": {
+        "replay": 0.5533938442657806,
+        "central_tritone": 0.7748170537411111,
+        "relation_profile": 0.35495762662617686
+      },
+      "central_distance": 0.22142320947533045,
+      "profile_distance": 0.19843621763960378,
+      "gain": 0.022986991835726667,
+      "raw_to_replay": {
+        "baseline": 0.9251026702271009,
+        "central_tritone": 0.9769188919615001,
+        "relation_profile": 0.6002357600608963
+      },
+      "onset_density": {
+        "baseline": 7.395833333333332,
+        "replay": 7.499999999999999,
+        "central_tritone": 7.499999999999999,
+        "relation_profile": 7.291666666666665
+      }
+    },
+    {
+      "track_key": "2b4e8304-c92d-4347-b09e-cfb9b3e29bf2",
+      "responses": {
+        "replay": 0.306303290996053,
+        "central_tritone": 0.7338451163367221,
+        "relation_profile": 0.23731808983806105
+      },
+      "central_distance": 0.4275418253406691,
+      "profile_distance": 0.06898520115799198,
+      "gain": 0.3585566241826771,
+      "raw_to_replay": {
+        "baseline": 0.6578648636901842,
+        "central_tritone": 1.0331329893057393,
+        "relation_profile": 0.7453638692268392
+      },
+      "onset_density": {
+        "baseline": 5.624999999999999,
+        "replay": 5.624999999999999,
+        "central_tritone": 5.624999999999999,
+        "relation_profile": 5.624999999999999
+      }
+    },
+    {
+      "track_key": "793b98a0-c776-4943-87eb-b7e07e50f531",
+      "responses": {
+        "replay": 0.47972257431813686,
+        "central_tritone": 0.6891861937654975,
+        "relation_profile": 0.3402975447181906
+      },
+      "central_distance": 0.20946361944736064,
+      "profile_distance": 0.13942502959994624,
+      "gain": 0.0700385898474144,
+      "raw_to_replay": {
+        "baseline": 1.2109751269488493,
+        "central_tritone": 1.198389080981299,
+        "relation_profile": 1.0048572028906329
+      },
+      "onset_density": {
+        "baseline": 4.583333333333333,
+        "replay": 4.583333333333333,
+        "central_tritone": 4.479166666666666,
+        "relation_profile": 4.583333333333333
+      }
+    },
+    {
+      "track_key": "ca080447-fe99-4f6d-98c9-c69b68dacba3",
+      "responses": {
+        "replay": 0.1326025393826925,
+        "central_tritone": 0.47669221270826573,
+        "relation_profile": 0.44452367942547594
+      },
+      "central_distance": 0.3440896733255732,
+      "profile_distance": 0.31192114004278343,
+      "gain": 0.03216853328278979,
+      "raw_to_replay": {
+        "baseline": 0.9449897539134237,
+        "central_tritone": 0.9881063411334096,
+        "relation_profile": 0.6747186720418609
+      },
+      "onset_density": {
+        "baseline": 4.166666666666666,
+        "replay": 4.062499999999999,
+        "central_tritone": 4.062499999999999,
+        "relation_profile": 4.166666666666666
+      }
+    },
+    {
+      "track_key": "d7d28204-a8ac-4c2b-bb3c-c941f4a00b85",
+      "responses": {
+        "replay": 0.4888824023572349,
+        "central_tritone": 0.46578289343856405,
+        "relation_profile": 0.26033692917065204
+      },
+      "central_distance": 0.023099508918670852,
+      "profile_distance": 0.22854547318658286,
+      "gain": -0.205445964267912,
+      "raw_to_replay": {
+        "baseline": 1.1577975380812109,
+        "central_tritone": 1.165948078032597,
+        "relation_profile": 0.664976912224635
+      },
+      "onset_density": {
+        "baseline": 2.8124999999999996,
+        "replay": 2.708333333333333,
+        "central_tritone": 2.8124999999999996,
+        "relation_profile": 2.8124999999999996
+      }
+    }
+  ]
+}

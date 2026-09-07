@@ -1,66 +1,48 @@
 # Local chord corruption and recognizer replay
 
-Reproducible analyses for studying how chord-condition changes propagate through
-singing accompaniment generation. The repository compares a localized synthetic
-chord edit with replay of a complete automatic chord-recognizer sequence under
-matched track, seed, generation context, and scoring-window conditions.
+[Paper](https://arxiv.org/abs/2609.03584) · [Reproduction](REPRODUCTION.md) · [Result data](data/moisesdb)
 
-## Why this comparison matters
-
-A four-second chord edit is useful when the goal is to isolate a named harmonic
-relation. It is not, however, the same input as the heterogeneous chord stream
-produced by an automatic recognizer. This project makes that distinction
-measurable and provides a support-and-profile-matched synthetic construction
-that tracks recognizer replay more closely.
-
-## Headline results
-
-| Finding | Result |
-|---|---:|
-| Central tritone minus CNN--CRF replay (CENS changed-target effect) | **0.462** mean gap; positive on **29/30** tracks |
-| Relative-root versus same-root quality control | **2.88x** larger CENS full-window response |
-| CNN--CRF profile-matching gain | **0.384 / 0.328** in CENS / CQT |
-| DeepChroma+CRF profile-matching gain | **0.408 / 0.353** in CENS / CQT |
-| Lowest CENS replay distance | **0.098** with joint support-and-profile matching |
-
-The central conclusion is straightforward: local edits measure sensitivity to a
-specific harmonic intervention, whereas complete recognizer replay measures
-behavior under the control stream delivered to a deployed generator. Support and
-relation composition connect the two settings.
-
-## What the numbers show
-
-The comparison is run track-by-track with the same vocal excerpt, generation
-context, random seed, and scoring window. A central four-second tritone therefore
-answers a deliberately narrow question: *how does the generator react to this
-one harmonic change?* In contrast, recognizer replay keeps the full predicted
-chord stream, including its timing, repeated labels, and mixed relations. The
-0.462 CENS gap (positive on 29 of 30 tracks) shows that these probes are not
-interchangeable. The relation control further shows that the generator responds
-to the root relationship itself: relative-root changes produce 2.88 times the
-full-window response of same-root quality flips.
-
-Profile matching closes most of the remaining gap. Matching both the recognizer's
-temporal support and its relation profile improves agreement with replay for
-both CNN--CRF and DeepChroma+CRF paths, reaching a minimum CENS distance of
-0.098. In practical terms, a compact synthetic probe can be useful—but only
-after it preserves the structure of the control stream it is meant to represent.
-
-## Practical takeaway
-
-Use local corruption when you need a clean, interpretable sensitivity test. Use
-complete recognizer replay when you want to measure behavior under a deployed
-automatic chord interface. If a lightweight proxy is required for a larger
-evaluation, construct it from the recognizer's support and relation statistics;
-otherwise the proxy can overstate or mischaracterize downstream response.
+Tools and derived measurements for evaluating chord-conditioned music generation.
+Compare a local chord edit with a complete recognized chord sequence, then construct
+a synthetic profile that matches where chords change and how they relate to baseline.
 
 <p align="center">
-  <img src="results/figures/fig1_calibrated_protocol.png" width="92%" alt="Paired local-corruption and recognizer-replay comparison">
+  <img src="results/figures/chord_conditions.png" width="100%" alt="Baseline, local corruption, replay and profile conditions enter the same generator; paired outputs measure harmonic response.">
 </p>
 
-<p align="center">
-  <img src="results/figures/fig2_relation_seed.png" width="74%" alt="Relation control and profile-matching construction analysis">
-</p>
+## Results
+
+On MUSDB18-HQ, central four-second tritone corruption produces a larger target
+response than replay on **29 of 30 songs**. Structure matching reduces CENS
+target-response distance to replay from **0.482 to 0.098**.
+
+The independent 24-song MoisesDB evaluation covers two audio generators and a
+beat-based symbolic accompaniment system:
+
+| Generator | Central distance | Profile distance | Reduction | Songs closer to replay |
+|---|---:|---:|---:|---:|
+| MIDI-SAG | 0.4570 | **0.0877** | **81%** | **24/24** |
+| MusicGen-Chord | 0.4361 | **0.0990** | **77%** | **24/24** |
+| AccoMontage | 0.3675 | **0.0952** | **74%** | **23/24** |
+
+Audio-model distances use CENS target response. AccoMontage uses a pitch-class
+projection on its 48-beat interface; do not compare absolute distances across
+these representations. Both audio-model primary tests have Holm-adjusted
+**p = 2.38 × 10⁻⁷**. Replacing CNN–CRF with DeepChroma+CRF as the input recognizer
+preserves improvement on **23/24** songs in each audio model.
+
+### Why match both factors?
+
+| Output chord mismatch with replay ↓ | Central | Temporal only | Relation only | Joint |
+|---|---:|---:|---:|---:|
+| MIDI-SAG | 86.11% | 80.56% | 83.16% | **66.20%** |
+| MusicGen-Chord | 90.16% | 84.90% | 87.91% | **76.85%** |
+
+Either factor removes much of the target-response mismatch. Joint matching brings
+decoded output chords closer to replay than either factor alone (all four paired
+comparisons: Holm-adjusted p ≤ 0.00231). The extra CENS gains are not significant.
+Target response and output harmony capture different aspects of calibration;
+neither is a listener-preference score.
 
 ## Quick start
 
@@ -69,21 +51,53 @@ python -m pip install -r requirements.txt
 python scripts/run_reproduction.py
 ```
 
-The command recomputes the reported track-level summaries and figures from the
-included derived metric tables, writing fresh outputs to `reproduced/`. Expected
-checks and output locations are listed in [REPRODUCTION.md](REPRODUCTION.md).
+For MoisesDB and AccoMontage only:
+
+```bash
+python scripts/analyze_moisesdb.py
+```
+
+No GPU or music downloads are needed for **metric-level reproduction**. The code
+averages paired seeds per song before computing response distances, then recomputes
+bootstrap intervals, exact signed-rank tests and Holm correction.
+Outputs go to `reproduced/`.
+
+## Using the comparison
+
+1. Hold musical input, context and generation seed fixed.
+2. Generate baseline, complete replay, local corruption and a matched profile.
+3. Compare each synthetic condition's response with replay, not just baseline.
+4. Check output chord agreement as well as target-response distance.
+
+Local edits isolate a harmonic intervention. Complete replay tests the recognized
+sequence. Structure matching connects these two evaluations without treating them
+as interchangeable.
 
 ## Repository layout
 
-- `data/` — derived metric tables used by the released analyses.
-- `analysis/` and `scripts/` — track-level inference and figure-generation code.
-- `results/` — final figures and compact summary values.
+| Directory | Contents |
+|---|---|
+| `data/` | Derived observations for the released analyses |
+| `analysis/`, `scripts/` | Pairing checks, statistics and plotting code |
+| `results/` | Selected figures and final numerical summaries |
+| `reproduced/` | Local outputs; ignored by Git |
 
-The repository intentionally contains no audio, model checkpoints, or
-third-party recognizer implementations. Those components must be obtained under
-their original licenses for audio-level regeneration.
+The six-song pilot and 24-song evaluation remain separate. The evaluation set was
+fixed before pilot generation; proceeding to it followed a revision of the initial
+stopping rule. No songs were replaced or pooled into the evaluation set.
 
-## License
+## Data and licensing
 
-Code is released under the MIT License. Derived tables and figures are released
-under CC BY 4.0; see [DATA_LICENSE.md](DATA_LICENSE.md).
+Original music, weights and third-party recognizers are not redistributed.
+Obtain [MUSDB18-HQ](https://zenodo.org/records/3338373) and
+[MoisesDB](https://github.com/moises-ai/moises-db) under their providers' licenses.
+This repository supports analysis from saved measurements; it does not install
+or run all upstream generators from scratch.
+
+Code: [MIT](LICENSE). Derived tables and figures: [CC BY 4.0](DATA_LICENSE.md).
+These licenses do not replace third-party dataset or model licenses.
+
+## Citation
+
+The paper and its version history are at [arXiv:2609.03584](https://arxiv.org/abs/2609.03584).
+Use the title and version shown there when citing the preprint.

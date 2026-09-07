@@ -1,8 +1,10 @@
 cff-version: 1.2.0
-message: If you use this artifact, please cite the accompanying paper.
+message: If you use this code, please cite the paper at https://arxiv.org/abs/2609.03584.
 title: Local Chord Corruption Is Not Recognizer Replay
 authors:
   - family-names: Huang
     given-names: Weiwen
 date-released: 2026-09-01
 license: MIT
+url: https://arxiv.org/abs/2609.03584
+repository-code: https://github.com/Viwennnnnn/local-chord-corruption-replay
