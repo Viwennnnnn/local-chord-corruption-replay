@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the manuscript hero figure for calibrated ACR-to-SAG evaluation."""
+"""Plot the MUSDB paired comparison and recognizer-path summaries."""
 
 from __future__ import annotations
 
@@ -70,7 +70,7 @@ def bootstrap_ci(values, seed=2027, draws=10000):
 
 def summary_stats(payload):
     # CNN summaries keep the same rows under ``track_results``; the independently
-    # recomputed DeepChroma files use ``results``.  Support both audited schemas.
+    # recomputed DeepChroma files use ``results``.
     rows = payload.get("track_results", payload.get("results"))
     if rows is None:
         raise KeyError("expected track_results or results in calibration summary")
@@ -152,7 +152,7 @@ def main():
     fig = plt.figure(figsize=(7.25, 3.18))
     outer = fig.add_gridspec(2, 1, height_ratios=[0.92, 2.02], hspace=0.36)
 
-    # a: protocol schematic establishes the condition and color vocabulary.
+    # Chord-condition schematic.
     ax = fig.add_subplot(outer[0])
     draw_protocol(ax)
     ax.set_title("Local probe versus complete recognizer replay",
@@ -175,8 +175,6 @@ def main():
     ax.set_yticks([])
     ax.set_xlabel("CENS changed-target effect")
     ax.set_title("Local probe magnifies propagation", loc="left", fontweight="bold", pad=4, fontsize=10.0)
-    # The lower-left margin is clear once y labels are omitted; using it keeps
-    # the compact result note away from the large central-probe observations.
     ax.text(0.04, 0.16, "29/30 central > replay\nmean gap = 0.462",
             transform=ax.transAxes, ha="left", va="bottom", fontsize=9.0,
             bbox={"facecolor": "white", "edgecolor": "#D0D0D0", "boxstyle": "round,pad=0.22"})
@@ -188,7 +186,7 @@ def main():
             bbox={"facecolor": "white", "edgecolor": "none", "pad": 0.2})
     label_panel(ax, "b")
 
-    # c: recognizer-path confirmation, with no implied generator replication.
+    # Calibration estimates for each recognizer.
     ax = fig.add_subplot(grid[1])
     rows = [
         ("CNN--CRF", "CENS", cnn, "o"),

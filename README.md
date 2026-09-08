@@ -44,7 +44,15 @@ comparisons: Holm-adjusted p ≤ 0.00231). The extra CENS gains are not signific
 Target response and output harmony capture different aspects of calibration;
 neither is a listener-preference score.
 
-## Quick start
+## Installation and use
+
+| Task | Start here |
+|---|---|
+| Recompute the released statistics (CPU) | Commands below |
+| Construct chord conditions and generate new MusicGen-Chord audio | [Worked example](examples/README.md) |
+| Install PyTorch and model dependencies | [Model environments](environments/README.md) |
+
+### Recompute results
 
 ```bash
 python -m pip install -r requirements.txt
@@ -79,6 +87,8 @@ as interchangeable.
 |---|---|
 | `data/` | Derived observations for the released analyses |
 | `analysis/`, `scripts/` | Pairing checks, statistics and plotting code |
+| `environments/` | Model-specific dependency versions and installation |
+| `examples/`, `tests/` | Chord input example and condition-construction tests |
 | `results/` | Selected figures and final numerical summaries |
 | `reproduced/` | Local outputs; ignored by Git |
 
@@ -91,8 +101,10 @@ stopping rule. No songs were replaced or pooled into the evaluation set.
 Original music, weights and third-party recognizers are not redistributed.
 Obtain [MUSDB18-HQ](https://zenodo.org/records/3338373) and
 [MoisesDB](https://github.com/moises-ai/moises-db) under their providers' licenses.
-This repository supports analysis from saved measurements; it does not install
-or run all upstream generators from scratch.
+The repository includes MusicGen-Chord inference, half-second chord-condition
+construction and audio response scoring. MIDI-SAG and AccoMontage currently have
+released measurements and statistical analyses; their portable generation and
+input-preparation workflows are still being packaged.
 
 Code: [MIT](LICENSE). Derived tables and figures: [CC BY 4.0](DATA_LICENSE.md).
 These licenses do not replace third-party dataset or model licenses.

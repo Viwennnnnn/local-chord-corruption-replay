@@ -77,8 +77,6 @@ def main():
     factor_cens = factor_summary(args.factor_cens)
     factor_cqt = factor_summary(args.factor_cqt)
 
-    # A vertical evidence stack preserves single-column placement while giving
-    # the full-30 construction panel enough width for its confidence intervals.
     fig, axes = plt.subplots(2, 1, figsize=(3.45, 3.10),
                              gridspec_kw={"height_ratios": [0.95, 1.05]})
 

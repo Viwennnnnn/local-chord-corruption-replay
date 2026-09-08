@@ -1,5 +1,9 @@
 # Reproduction
 
+For new audio generation, see the [four-condition example](examples/README.md)
+and [model installation](environments/README.md). This page covers the released
+statistical analyses.
+
 Install the dependencies and run:
 
 ```bash

@@ -1,0 +1,13 @@
+numpy==1.26.4
+scipy==1.13.1
+librosa==0.11.0
+soundfile==0.13.1
+diffusers==0.31.0
+transformers==4.47.1
+accelerate==1.10.1
+einops==0.8.2
+omegaconf==2.3.1
+pretty_midi==0.2.11
+miditoolkit==1.0.1
+torchsde==0.2.6
+sentencepiece==0.2.0

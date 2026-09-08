@@ -1,13 +1,5 @@
 #!/usr/bin/env python3
-"""Finalize the declared Holm family for the full-30 construction study.
-
-The construction experiment contains four paired contrasts in each of
-two paired feature views (CENS and CQT).  This utility reads their raw exact
-Wilcoxon p-values from the source-of-record analyses, applies Holm's step-down
-procedure once across all eight tests, and writes a compact, citable record.
-It does not recompute any audio metric or reinterpret the cells as causal
-factor effects.
-"""
+"""Apply Holm correction to eight track-level construction comparisons."""
 
 from __future__ import annotations
 

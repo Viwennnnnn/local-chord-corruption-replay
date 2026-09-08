@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
-"""Recompute the full-30 profile-factor replay-distance analysis.
-
-The analysis aggregates diffusion seeds within a condition/profile, then
-profiles within a track. It reports paired construction contrasts at the track
-level. The construction cells are not a fully orthogonal causal factorial
-design, so this program never labels a contrast a causal main effect.
-"""
+"""Compare profile, temporal-only and relation-only conditions by track."""
 
 from __future__ import annotations
 

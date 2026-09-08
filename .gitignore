@@ -3,3 +3,10 @@ __pycache__/
 .venv/
 reproduced/
 reproduction.log
+outputs/
+checkpoints/
+external/
+*.pt
+*.th
+*.wav
+*.flac
