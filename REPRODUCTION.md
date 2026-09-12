@@ -10,7 +10,7 @@ Install the dependencies and run:
 python scripts/run_reproduction.py
 ```
 
-The runner produces the statistics and figures used in the repository. Results
+The runner recomputes the released statistics and generates diagnostic plots. Results
 are written to `reproduced/`, so the working tree stays clean. The independent
 unit for paired analyses is the track; the three generation seeds are averaged
 within each track before inference.

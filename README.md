@@ -7,13 +7,14 @@ Compare a local chord edit with a complete recognized chord sequence, then const
 a synthetic profile that matches where chords change and how they relate to baseline.
 
 <p align="center">
-  <img src="results/figures/fig1_design.png" width="100%" alt="Baseline, local corruption, replay and profile conditions enter the same generator; paired outputs measure harmonic response.">
+  <img src="results/figures/fig1a_design.png" width="100%" alt="Paired-generation pipeline from a song excerpt through chord conditions and a shared generator.">
+  <img src="results/figures/fig1b_conditions.png" width="100%" alt="Reference, central probe, replay and profile on a shared half-second chord grid.">
 </p>
 
 ## Results
 
 On MUSDB18-HQ, central four-second tritone corruption produces a larger target
-response than replay on **29 of 30 songs**. Structure matching reduces CENS
+response than CNN–CRF replay on **29 of 30 songs in MIDI-SAG**. Structure matching reduces CENS
 target-response distance to replay from **0.482 to 0.098**.
 
 The independent 24-song MoisesDB evaluation covers two audio generators and a
@@ -27,9 +28,14 @@ beat-based symbolic accompaniment system:
 
 Audio-model distances use CENS target response. AccoMontage uses a pitch-class
 projection on its 48-beat interface; do not compare absolute distances across
-these representations. Both audio-model primary tests have Holm-adjusted
+these representations. The table uses CNN–CRF input replay for the audio models.
+Both audio-model primary tests have Holm-adjusted
 **p = 2.38 × 10⁻⁷**. Replacing CNN–CRF with DeepChroma+CRF as the input recognizer
 preserves improvement on **23/24** songs in each audio model.
+
+For the MUSDB18-HQ analysis, profiles match the composition of relation
+categories across changed cells. The MoisesDB validation additionally preserves
+the relation category at each changed cell. Both preserve replay's changed positions.
 
 ### Why match both factors?
 
@@ -37,6 +43,11 @@ preserves improvement on **23/24** songs in each audio model.
 |---|---:|---:|---:|---:|
 | MIDI-SAG | 86.11% | 80.56% | 83.16% | **66.20%** |
 | MusicGen-Chord | 90.16% | 84.90% | 87.91% | **76.85%** |
+
+Output-chord mismatch compares decoded output labels over the same full 24-cell
+window, with replay-generated audio as the reference. It uses no input chord
+template. Target response instead measures movement toward each condition's own
+chord target.
 
 Either factor removes much of the target-response mismatch. Joint matching brings
 decoded output chords closer to replay than either factor alone (all four paired
