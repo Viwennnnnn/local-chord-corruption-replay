@@ -7,7 +7,7 @@ Compare a local chord edit with a complete recognized chord sequence, then const
 a synthetic profile that matches where chords change and how they relate to baseline.
 
 <p align="center">
-  <img src="results/figures/chord_conditions.png" width="100%" alt="Baseline, local corruption, replay and profile conditions enter the same generator; paired outputs measure harmonic response.">
+  <img src="results/figures/fig1_design.png" width="100%" alt="Baseline, local corruption, replay and profile conditions enter the same generator; paired outputs measure harmonic response.">
 </p>
 
 ## Results
